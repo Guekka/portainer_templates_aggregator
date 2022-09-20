@@ -1,0 +1,25 @@
+name: Update templates
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update_templates.yml'
+      - 'scripts/**'
+      - 'template.json'
+
+permissions:
+  contents: write
+
+jobs:
+  update_templates:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2 
+      - uses: actions/setup-python@v4
+      - run: python scripts/main.py
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update template lists
+      
