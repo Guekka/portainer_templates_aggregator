@@ -78,7 +78,7 @@ def merge_templates(result: TemplateList, new: TemplateList) -> TemplateList:
 
 
 def save_json(templates: TemplateList) -> str:
-    result = {"version": TEMPLATE_VERSION, "templates": templates}
+    result = {"version": f"{TEMPLATE_VERSION}", "templates": templates}
     return json.dumps(result, indent=4)
 
 
