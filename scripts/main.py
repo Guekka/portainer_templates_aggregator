@@ -45,7 +45,7 @@ def retrieve_templates(url: str) -> TemplateList:
     for template in templates:
         # Indicate source
         note = f"Source: {get_source(url)}"
-        if template["note"]:
+        if template.get("note", None):
             note += "\n" + template["note"]
         template["note"] = note
 
