@@ -11,7 +11,7 @@ from typing import Dict, List, Any
 
 CONFIG_PATH = "scripts/configuration.json"
 TEMPLATE_VERSION = 2
-SORT_FIELD = "title"
+TITLE = "title"
 
 TemplateList = List[Any]
 JSON = Dict[str, Any]
@@ -43,21 +43,35 @@ def retrieve_templates(url: str) -> TemplateList:
     return json_data.get("templates", [])
 
 
-def merge_templates(result: TemplateList, new: TemplateList) -> TemplateList:
+def clean_up_string(s: str) -> str:
+    # The TITLE data is cleaned up in order to improve detection
+    # We are only keeping letters or numbers
+
+    def filter_pred(c: str):
+        return c.isalpha() or c.isdigit()
+
+    return ''.join(filter(filter_pred, s.lower()))
+
+
+def is_duplicate(current: TemplateList, new_template: JSON) -> bool:
     # This is the most "complicated" part
     # Here, we try to eliminate duplicates
-    # Nothing too fancy, we just compare by SORT_FIELD for now
+    # Nothing too fancy, we just compare by TITLE for now
+
+    # Cache the cleaned up title
+    new_title = clean_up_string(new_template[TITLE])
 
     # This is not best for performance, but we're just going to go the O(n²) way
+    # It should be enough for our purpose
+    for cur_template in current:
+        if clean_up_string(cur_template[TITLE]) == new_title:
+            return True
+    return False
 
-    def contains(sort_field: str):
-        for template in result:
-            if template[SORT_FIELD] == sort_field:
-                return True
-        return False
 
+def merge_templates(result: TemplateList, new: TemplateList) -> TemplateList:
     for template in new:
-        if not contains(template[SORT_FIELD]):
+        if not is_duplicate(result, template):
             result.append(template)
 
     return result
@@ -77,7 +91,7 @@ def main():
         result = merge_templates(result, template)
 
     # We're not going to leave this huge list unsorted, are we?
-    result = sorted(result, key=lambda t: t[SORT_FIELD])
+    result = sorted(result, key=lambda t: t[TITLE])
 
     # We're done!
     with open(config.output_file, "w") as out:
