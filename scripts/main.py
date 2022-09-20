@@ -4,6 +4,7 @@ It is meant to run periodically.
 """
 
 import json
+from more_itertools import first
 import requests
 
 from dataclasses import dataclass
@@ -40,7 +41,15 @@ def retrieve_templates(url: str) -> TemplateList:
         print(f"Wrong version for template {url}: {version}")
         return []
 
-    return json_data.get("templates", [])
+    templates = json_data.get("templates", [])
+    for template in templates:
+        # Indicate source
+        note = f"Source: {get_source(url)}"
+        if template["note"]:
+            note += "\n" + template["note"]
+        template["note"] = note
+
+    return templates
 
 
 def clean_up_string(s: str) -> str:
@@ -67,6 +76,12 @@ def is_duplicate(current: TemplateList, new_template: JSON) -> bool:
         if clean_up_string(cur_template[TITLE]) == new_title:
             return True
     return False
+
+
+def get_source(url: str):
+    # This assumes we are getting the files from github
+    first_slash = url.find('/')
+    return url[first_slash:]
 
 
 def merge_templates(result: TemplateList, new: TemplateList) -> TemplateList:
