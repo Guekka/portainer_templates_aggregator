@@ -4143,6 +4143,22 @@
         },
         {
             "categories": [
+                "Multimedia"
+            ],
+            "description": "Fireshare: Share your game clips, videos, or other media via unique links.",
+            "logo": "https://github.com/ShaneIsrael/fireshare/raw/main/app/client/src/assets/logo.png",
+            "name": "fireshare",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/fireshare.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Fireshare",
+            "type": 3,
+            "note": "Source: //raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json"
+        },
+        {
+            "categories": [
                 "Other",
                 "Tools"
             ],
