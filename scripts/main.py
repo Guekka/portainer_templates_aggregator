@@ -44,7 +44,7 @@ def retrieve_templates(url: str) -> TemplateList:
     templates = json_data.get("templates", [])
     for template in templates:
         # Indicate source
-        note = f"Source: {get_source(url)}"
+        note = format_source(url)
         if template.get("note", None):
             note += "\n" + template["note"]
         template["note"] = note
@@ -78,10 +78,9 @@ def is_duplicate(current: TemplateList, new_template: JSON) -> bool:
     return False
 
 
-def get_source(url: str):
-    # This assumes we are getting the files from github
-    first_slash = url.find('/')
-    return url[first_slash:]
+def format_source(url: str) -> str:
+    # This function is currently useless, but
+    return f"<a href='{url}' target='_blank'>Source</a>"
 
 
 def merge_templates(result: TemplateList, new: TemplateList) -> TemplateList:
