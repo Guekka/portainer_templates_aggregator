@@ -55,11 +55,7 @@ def retrieve_templates(url: str) -> TemplateList:
 def clean_up_string(s: str) -> str:
     # The TITLE data is cleaned up in order to improve detection
     # We are only keeping letters or numbers
-
-    def filter_pred(c: str):
-        return c.isalpha() or c.isdigit()
-
-    return ''.join(filter(filter_pred, s.lower()))
+    return "".join(c for c in s if c.isalnum()).lower()
 
 
 def is_duplicate(current: TemplateList, new_template: JSON) -> bool:
@@ -79,7 +75,6 @@ def is_duplicate(current: TemplateList, new_template: JSON) -> bool:
 
 
 def format_source(url: str) -> str:
-    # This function is currently useless, but
     return f"<a href='{url}' target='_blank'>Source</a>"
 
 
