@@ -5568,6 +5568,22 @@
         },
         {
             "categories": [
+                "Dashboard"
+            ],
+            "description": "Homepage is a new dashboard implementation that creates a super fast static site.",
+            "logo": "https://raw.githubusercontent.com/benphelps/homepage/main/images/preview.png",
+            "name": "homepage",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/homepage.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Homepage",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Tools",
                 "Dashboard"
             ],
