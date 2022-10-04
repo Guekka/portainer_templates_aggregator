@@ -2114,29 +2114,44 @@
             "restart_policy": "unless-stopped"
         },
         {
+            "type": 3,
+            "title": "Deemix",
+            "name": "Deemix",
+            "description": "Download music from deezer easily",
+            "note": "<a href='https://raw.githubusercontent.com/PAPAMICA/docker-compose-collection/master/templates-portainer.json' target='_blank'>Source</a>\nWebsite: <a href='https://deemix.app/' target='_blank' rel='noopener'>deemix.app</a>",
             "categories": [
-                "Music"
+                "SelfHosted",
+                "PAPAMICA"
             ],
-            "description": "Deemix is a deezer downloader built from the ashes of Deezloader Remix.",
-            "image": "registry.gitlab.com/bockiii/deemix-docker",
-            "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/deemix.png",
-            "name": "deemix",
-            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>\nDeemix may take a few minutes to install. Be sure to check the logs for details. Refer to <a href='https://notabug.org/RemixDevs/DeezloaderRemix/wiki/Login+via+userToken'>this page</a> for userToken details.",
             "platform": "linux",
-            "ports": [
-                "6595:6595/tcp"
-            ],
-            "restart_policy": "unless-stopped",
-            "title": "DeeMix",
-            "type": 1,
-            "volumes": [
+            "logo": "https://deemix.app/img/logo.png",
+            "repository": {
+                "stackfile": "composes-files/deemix.yml",
+                "url": "https://github.com/PAPAMICA/docker-compose-collection"
+            },
+            "env": [
                 {
-                    "bind": "/portainer/Files/AppData/Config/DeeMix",
-                    "container": "/config"
+                    "name": "SERVICE",
+                    "label": "Name of the service ",
+                    "description": "No spaces or points",
+                    "default": "deemix"
                 },
                 {
-                    "bind": "/portainer/Downloads",
-                    "container": "/downloads"
+                    "name": "DATA_LOCATION",
+                    "label": "Data localization ",
+                    "description": "Example: /apps/service",
+                    "default": "/_data/apps"
+                },
+                {
+                    "name": "URL",
+                    "label": "Service URL",
+                    "description": "Example: service.papamica.fr or service.com"
+                },
+                {
+                    "name": "NETWORK",
+                    "label": "Your Traefik network ",
+                    "description": "Example: proxy",
+                    "default": "proxy"
                 }
             ]
         },
@@ -15136,38 +15151,46 @@
             ]
         },
         {
+            "type": 3,
+            "title": "Trilium",
+            "name": "Trilium",
+            "description": "Trilium Notes is a hierarchical note taking application",
+            "note": "<a href='https://raw.githubusercontent.com/PAPAMICA/docker-compose-collection/master/templates-portainer.json' target='_blank'>Source</a>\nWebsite: <a href='https://github.com/zadam/trilium/' target='_blank' rel='noopener'>Github Project</a>",
             "categories": [
-                "Productivity"
+                "SelfHosted",
+                "PAPAMICA"
             ],
-            "description": "Trilium Notes is a hierarchical note taking application with focus on building large personal knowledge bases",
+            "platform": "linux",
+            "logo": "https://raw.githubusercontent.com/zadam/trilium/master/images/app-icons/png/128x128.png",
+            "repository": {
+                "stackfile": "composes-files/trilium.yml",
+                "url": "https://github.com/PAPAMICA/docker-compose-collection"
+            },
             "env": [
                 {
-                    "default": "/home/node/trilium-data",
-                    "label": "TRILIUM_DATA_DIR",
-                    "name": "TRILIUM_DATA_DIR"
+                    "name": "SERVICE",
+                    "label": "Name of the service ",
+                    "description": "No spaces or points",
+                    "default": "trilium"
                 },
                 {
-                    "label": "PORT",
-                    "name": "PORT"
-                }
-            ],
-            "image": "zadam/trilium:latest",
-            "logo": "https://www.saashub.com/images/app/service_logos/55/2901389fab77/large.png?1561117248",
-            "name": "trilium",
-            "platform": "linux",
-            "ports": [
-                "3388:8080/tcp"
-            ],
-            "restart_policy": "unless-stopped",
-            "title": "Trilium",
-            "type": 1,
-            "volumes": [
+                    "name": "DATA_LOCATION",
+                    "label": "Data localization ",
+                    "description": "Example: /apps/service",
+                    "default": "/_data/apps"
+                },
                 {
-                    "bind": "/portainer/Files/AppData/Config/trilium-data",
-                    "container": "/home/node/trilium-data"
+                    "name": "URL",
+                    "label": "Service URL",
+                    "description": "Example: service.papamica.fr or service.com"
+                },
+                {
+                    "name": "NETWORK",
+                    "label": "Your Traefik network ",
+                    "description": "Example: proxy",
+                    "default": "proxy"
                 }
-            ],
-            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+            ]
         },
         {
             "categories": [
