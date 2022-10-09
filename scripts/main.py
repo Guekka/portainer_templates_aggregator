@@ -104,8 +104,8 @@ def main():
     res_with_dups: TemplateList = []
     for url in config.template_lists:
         template = retrieve_templates(url)
-        res_without_dups = merge_templates(result, template)
-        res_with_dups = merge_templates_with_dups(result, template)
+        res_without_dups = merge_templates(res_without_dups, template)
+        res_with_dups = merge_templates_with_dups(res_with_dups, template)
 
     # We're not going to leave this huge list unsorted, are we?
     res_with_dups.sort(key=lambda t: t[TITLE])
