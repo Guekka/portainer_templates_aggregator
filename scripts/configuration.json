@@ -13,5 +13,6 @@
         "https://raw.githubusercontent.com/mediadepot/templates/master/portainer.json",
         "https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json"
     ],
-    "output_file": "merged.json"
+    "output_file": "merged.json",
+    "output_file_with_dups": "merged-with-duplicates.json"
 }

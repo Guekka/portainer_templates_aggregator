@@ -22,6 +22,7 @@ JSON = Dict[str, Any]
 class Config:
     template_lists: List[str]
     output_file: str
+    output_file_with_dups: str
 
 
 def load_config(path: str) -> Config:
@@ -85,7 +86,12 @@ def merge_templates(result: TemplateList, new: TemplateList) -> TemplateList:
 
     return result
 
+def merge_templates_with_dups(result: TemplateList, new: TemplateList) -> TemplateList:
+    for template in new:
+        result.append(template)
 
+    return result
+    
 def save_json(templates: TemplateList) -> str:
     result = {"version": f"{TEMPLATE_VERSION}", "templates": templates}
     return json.dumps(result, indent=4)
@@ -94,17 +100,22 @@ def save_json(templates: TemplateList) -> str:
 def main():
     config = load_config(CONFIG_PATH)
 
-    result: TemplateList = []
+    res_without_dups: TemplateList = []
+    res_with_dups: TemplateList = []
     for url in config.template_lists:
         template = retrieve_templates(url)
-        result = merge_templates(result, template)
+        res_without_dups = merge_templates(result, template)
+        res_with_dups = merge_templates_with_dups(result, template)
 
     # We're not going to leave this huge list unsorted, are we?
-    result = sorted(result, key=lambda t: t[TITLE])
+    res_with_dups.sort(key=lambda t: t[TITLE])
+    res_without_dups.sort(key=lambda t: t[TITLE])
 
     # We're done!
     with open(config.output_file, "w") as out:
-        out.write(save_json(result))
+        out.write(save_json(res_without_dups))
+    with open(config.output_file_with_dups, "w") as out:
+        out.write(save_json(res_with_dups))
 
 
 if __name__ == '__main__':
