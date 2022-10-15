@@ -17079,6 +17079,22 @@
         },
         {
             "categories": [
+                "Network"
+            ],
+            "description": "IPerf3 Docker Build for Network Performance and Bandwidth Testing",
+            "logo": "",
+            "name": "iperf",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/iperf.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "iperf",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Other",
                 "Tools"
             ],
