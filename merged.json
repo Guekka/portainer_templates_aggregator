@@ -14872,6 +14872,54 @@
             ]
         },
         {
+            "type": 3,
+            "title": "Teedy",
+            "name": "Teedy",
+            "description": "Document management",
+            "note": "<a href='https://raw.githubusercontent.com/PAPAMICA/docker-compose-collection/master/templates-portainer.json' target='_blank'>Source</a>\nWebsite: <a href='https://teedy.io/#!/' target='_blank' rel='noopener'>Teedy.io</a></br>Default identifiants: admin/admin",
+            "categories": [
+                "SelfHosted",
+                "PAPAMICA"
+            ],
+            "platform": "linux",
+            "logo": "https://img.papamica.com/logo/teedy.png",
+            "repository": {
+                "stackfile": "composes-files/teedy.yml",
+                "url": "https://github.com/PAPAMICA/docker-compose-collection"
+            },
+            "env": [
+                {
+                    "name": "SERVICE",
+                    "label": "Name of the service ",
+                    "description": "No spaces or points",
+                    "default": "teedy"
+                },
+                {
+                    "name": "DATA_LOCATION",
+                    "label": "data localization ",
+                    "description": "Example: /apps/service",
+                    "default": "/_data/apps"
+                },
+                {
+                    "name": "URL",
+                    "label": "Service URL",
+                    "description": "Example: service.papamica.fr or service.com"
+                },
+                {
+                    "name": "NETWORK",
+                    "label": "Your Traefik network ",
+                    "description": "Example: proxy",
+                    "default": "proxy"
+                },
+                {
+                    "name": "DB_USER",
+                    "label": "Database user ",
+                    "description": "No spaces or points",
+                    "default": "teedy"
+                }
+            ]
+        },
+        {
             "categories": [
                 "Tools"
             ],
