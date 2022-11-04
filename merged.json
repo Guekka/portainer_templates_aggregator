@@ -7025,6 +7025,22 @@
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
+            "categories": [
+                "Docker"
+            ],
+            "description": "Lazytainer monitors network traffic to containers. If there is traffic, the container runs, otherwise the container is stopped/paused.",
+            "logo": "",
+            "name": "lazytainer",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/lazytainer.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Lazytainer",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 1,
             "title": "Ldap-auth",
             "name": "Ldap-auth",
