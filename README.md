@@ -13,4 +13,4 @@ Feel free to create a PR in order to add another source.
 
 This tool tries to avoid duplicates. However, in case of conflict, the *first* template is chosen. The second or the third might be better, but there is no way to override the default.
 
-If there is enough interest, I might modify it to manually override some entries, or simply provide a huge list without removal of duplicates. 
+A list with duplicates is available as `merged-with-duplicates.json`
