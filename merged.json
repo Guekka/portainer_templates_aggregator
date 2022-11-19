@@ -11953,6 +11953,22 @@
             }
         },
         {
+            "categories": [
+                "Mail"
+            ],
+            "description": "Full stack mailserver solution with  TLS support. POP3s, SMTP(s), IMAPs, RSPAMD, Clamav, Roundcube(HTTPS), SPF, DKIM with simple installation and web administration.",
+            "logo": "",
+            "name": "poste.io",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/posteio.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Poste.io",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 1,
             "title": "PostgreSQL",
             "description": "The most advanced open-source database",
