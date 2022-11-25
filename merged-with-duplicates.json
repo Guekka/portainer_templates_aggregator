@@ -1550,6 +1550,22 @@
         },
         {
             "categories": [
+                "Development"
+            ],
+            "description": "Appwrite is a self-hosted backend-as-a-service platform that provides developers with all the core APIs required to build any application.",
+            "logo": "https://appwrite.io/images/appwrite.svg",
+            "name": "appwrite",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/appwrite.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Appwrite",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Other",
                 "Tools"
             ],
@@ -33825,6 +33841,22 @@
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
+            "categories": [
+                "App"
+            ],
+            "description": "Kcal \u2013 the personal food nutrition journal",
+            "logo": "",
+            "name": "kcal",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/kcal.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Kcal",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 1,
             "title": "Kdenlive",
             "name": "Kdenlive",
@@ -38477,6 +38509,22 @@
                 }
             ],
             "note": "<a href='https://raw.githubusercontent.com/OliverCullimore/portainer-templates/master/templates.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "email"
+            ],
+            "description": "Mailpile is an e-mail client!/search engine and a personal webmail server/easy way to encrypt your e-mail/easy way to encrypt your e-mail ",
+            "logo": "https://www.mailpile.is/img/icon-512x512.png",
+            "name": "mailpile",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/mailpile.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Mailpile",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "type": 3,
