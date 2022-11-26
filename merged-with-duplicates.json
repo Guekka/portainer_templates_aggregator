@@ -33841,22 +33841,6 @@
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
-            "categories": [
-                "App"
-            ],
-            "description": "Kcal \u2013 the personal food nutrition journal",
-            "logo": "",
-            "name": "kcal",
-            "platform": "linux",
-            "repository": {
-                "stackfile": "Template/Stack/kcal.yml",
-                "url": "https://github.com/xneo1/portainer_templates"
-            },
-            "title": "Kcal",
-            "type": 3,
-            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
-        },
-        {
             "type": 1,
             "title": "Kdenlive",
             "name": "Kdenlive",
