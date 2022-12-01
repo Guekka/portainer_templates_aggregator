@@ -64349,6 +64349,22 @@
             ]
         },
         {
+            "categories": [
+                "Books"
+            ],
+            "description": "Readarr is a ebook collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new books from your favorite authors and will interface with clients and indexers to grab, sort, and rename them.",
+            "logo": "https://readarr.com/img/logo.png",
+            "name": "readarr",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/readarr.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Readarr",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 1,
             "name": "readarr",
             "title": "Readarr",
