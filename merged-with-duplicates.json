@@ -64855,6 +64855,33 @@
         },
         {
             "type": 1,
+            "title": "Registry (cache)",
+            "description": "Docker image registry configured as a DockerHub pull through cache",
+            "categories": [
+                "docker"
+            ],
+            "platform": "linux",
+            "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
+            "image": "registry:latest",
+            "ports": [
+                "5000/tcp"
+            ],
+            "volumes": [
+                {
+                    "container": "/var/lib/registry"
+                }
+            ],
+            "env": [
+                {
+                    "name": "REGISTRY_PROXY_REMOTEURL",
+                    "default": "https://registry-1.docker.io",
+                    "preset": true
+                }
+            ],
+            "note": "<a href='https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json' target='_blank'>Source</a>"
+        },
+        {
+            "type": 1,
             "title": "Remmina",
             "name": "Remmina",
             "note": "<a href='https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json' target='_blank'>Source</a>\nPortainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/remmina/config</p>",
