@@ -1246,42 +1246,51 @@
             "restart_policy": "unless-stopped"
         },
         {
+            "type": 3,
+            "title": "Calibre-Web",
+            "name": "Calibre-Web",
+            "description": "Web library",
+            "note": "<a href='https://raw.githubusercontent.com/PAPAMICA/docker-compose-collection/master/templates-portainer.json' target='_blank'>Source</a>\nWebsite: <a href='https://github.com/janeczku/calibre-web' target='_blank' rel='noopener'>Github.com</a>",
             "categories": [
-                "Cloud",
-                "Books"
+                "SelfHosted",
+                "Library",
+                "Drack0rr"
             ],
-            "description": "Calibre Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.",
+            "platform": "linux",
+            "logo": "https://developer.asustor.com/uploadIcons/0020_999_1573465183_calibre-web_256.png",
+            "repository": {
+                "stackfile": "composes-files/calibre-web.yml",
+                "url": "https://github.com/PAPAMICA/docker-compose-collection"
+            },
             "env": [
                 {
-                    "default": "1000",
-                    "label": "PUID",
-                    "name": "PUID"
+                    "name": "SERVICE",
+                    "label": "Name of the service ",
+                    "description": "No spaces or points",
+                    "default": "calibre-web"
                 },
                 {
-                    "default": "100",
-                    "label": "PGID",
-                    "name": "PGID"
-                }
-            ],
-            "image": "linuxserver/calibre-web:latest",
-            "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/calibre-web-icon.png",
-            "name": "calibre-web",
-            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>\nConfiguration <ul><li><b>/config</b> - Where Calibre-web should store it's database</li><li><b>/books</b> - Path to your calibre library metadata.db file</li></ul>",
-            "platform": "linux",
-            "ports": [
-                "8083:8083/tcp"
-            ],
-            "restart_policy": "unless-stopped",
-            "title": "Calibre Web",
-            "type": 1,
-            "volumes": [
-                {
-                    "bind": "/portainer/Books",
-                    "container": "/books"
+                    "name": "DATA_LOCATION",
+                    "label": "Data localization ",
+                    "description": "Example: /apps/service",
+                    "default": "/apps"
                 },
                 {
-                    "bind": "/portainer/Files/AppData/Config/Calibre-web",
-                    "container": "/config"
+                    "name": "URL",
+                    "label": "Service URL",
+                    "description": "Example: service.papamica.fr or service.com"
+                },
+                {
+                    "name": "NETWORK",
+                    "label": "Your Traefik network ",
+                    "description": "Example: proxy",
+                    "default": "proxy"
+                },
+                {
+                    "name": "TIME_ZONE",
+                    "label": "Time zone ",
+                    "description": "Example : Europe/Paris",
+                    "default": "Europe/Paris"
                 }
             ]
         },
@@ -3349,6 +3358,23 @@
         },
         {
             "type": 1,
+            "title": "EdgeConnector Modbus",
+            "description": "Connect Modbus TCP Sensors/PLCs and provide the data via OPC UA and MQTT",
+            "categories": [
+                "edge"
+            ],
+            "platform": "linux",
+            "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/softing.png",
+            "image": "softingindustrial/edgeconnector-modbus:latest",
+            "ports": [
+                "443/tcp",
+                "8099/tcp",
+                "4897/tcp"
+            ],
+            "note": "<a href='https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json' target='_blank'>Source</a>"
+        },
+        {
+            "type": 1,
             "title": "Elasticsearch",
             "description": "Open-source search and analytics engine",
             "categories": [
@@ -4438,6 +4464,27 @@
                 }
             ],
             "restart_policy": "unless-stopped"
+        },
+        {
+            "type": 1,
+            "title": "Floating License Server",
+            "description": "License Server for Softing edgeConnector products",
+            "categories": [
+                "edge"
+            ],
+            "platform": "linux",
+            "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/softing.png",
+            "image": "softingindustrial/floating-license-server:latest",
+            "ports": [
+                "6200/tcp"
+            ],
+            "interactive": true,
+            "volumes": [
+                {
+                    "container": "/licsrv/licenses"
+                }
+            ],
+            "note": "<a href='https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json' target='_blank'>Source</a>"
         },
         {
             "type": 1,
@@ -6794,43 +6841,53 @@
             "restart_policy": "unless-stopped"
         },
         {
+            "type": 3,
+            "title": "Kavita",
+            "name": "Kavita",
+            "description": "Web library",
+            "note": "<a href='https://raw.githubusercontent.com/PAPAMICA/docker-compose-collection/master/templates-portainer.json' target='_blank'>Source</a>\nWebsite: <a href='https://github.com/Kareadita/Kavita' target='_blank' rel='noopener'>Github.com</a>",
             "categories": [
-                "Books"
+                "SelfHosted",
+                "Library",
+                "Drack0rr"
             ],
-            "description": "Lighting fast with a slick design, Kavita is a rocket fueled self-hosted digital library which supports a vast array of file formats. Install to start reading and share your server with your friends.",
+            "platform": "linux",
+            "logo": "https://www.kavitareader.com/img/logo.png",
+            "repository": {
+                "stackfile": "composes-files/kavita.yml",
+                "url": "https://github.com/PAPAMICA/docker-compose-collection"
+            },
             "env": [
                 {
-                    "default": "1000",
-                    "label": "PUID",
-                    "name": "PUID"
+                    "name": "SERVICE",
+                    "label": "Name of the service ",
+                    "description": "No spaces or points",
+                    "default": "kavita"
                 },
                 {
-                    "default": "100",
-                    "label": "PGID",
-                    "name": "PGID"
-                }
-            ],
-            "image": "kizaing/kavita:latest",
-            "logo": "https://www.kavitareader.com/img/logo.png",
-            "name": "kavita",
-            "platform": "linux",
-            "ports": [
-                "5000/tcp"
-            ],
-            "restart_policy": "unless-stopped",
-            "title": "Kavita",
-            "type": 1,
-            "volumes": [
-                {
-                    "bind": "/portainer/Books",
-                    "container": "/books"
+                    "name": "DATA_LOCATION",
+                    "label": "Data localization ",
+                    "description": "Example: /apps/service",
+                    "default": "/apps"
                 },
                 {
-                    "bind": "/portainer/Files/AppData/Config/kavita",
-                    "container": "/config"
+                    "name": "URL",
+                    "label": "Service URL",
+                    "description": "Example: service.papamica.fr or service.com"
+                },
+                {
+                    "name": "NETWORK",
+                    "label": "Your Traefik network ",
+                    "description": "Example: proxy",
+                    "default": "proxy"
+                },
+                {
+                    "name": "TIME_ZONE",
+                    "label": "Time zone ",
+                    "description": "Example : Europe/Paris",
+                    "default": "Europe/Paris"
                 }
-            ],
-            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+            ]
         },
         {
             "type": 1,

@@ -7403,6 +7403,55 @@
             ]
         },
         {
+            "type": 3,
+            "title": "Calibre-Web",
+            "name": "Calibre-Web",
+            "description": "Web library",
+            "note": "<a href='https://raw.githubusercontent.com/PAPAMICA/docker-compose-collection/master/templates-portainer.json' target='_blank'>Source</a>\nWebsite: <a href='https://github.com/janeczku/calibre-web' target='_blank' rel='noopener'>Github.com</a>",
+            "categories": [
+                "SelfHosted",
+                "Library",
+                "Drack0rr"
+            ],
+            "platform": "linux",
+            "logo": "https://developer.asustor.com/uploadIcons/0020_999_1573465183_calibre-web_256.png",
+            "repository": {
+                "stackfile": "composes-files/calibre-web.yml",
+                "url": "https://github.com/PAPAMICA/docker-compose-collection"
+            },
+            "env": [
+                {
+                    "name": "SERVICE",
+                    "label": "Name of the service ",
+                    "description": "No spaces or points",
+                    "default": "calibre-web"
+                },
+                {
+                    "name": "DATA_LOCATION",
+                    "label": "Data localization ",
+                    "description": "Example: /apps/service",
+                    "default": "/apps"
+                },
+                {
+                    "name": "URL",
+                    "label": "Service URL",
+                    "description": "Example: service.papamica.fr or service.com"
+                },
+                {
+                    "name": "NETWORK",
+                    "label": "Your Traefik network ",
+                    "description": "Example: proxy",
+                    "default": "proxy"
+                },
+                {
+                    "name": "TIME_ZONE",
+                    "label": "Time zone ",
+                    "description": "Example : Europe/Paris",
+                    "default": "Europe/Paris"
+                }
+            ]
+        },
+        {
             "type": 1,
             "title": "Calibre-web",
             "name": "Calibre-web",
@@ -19838,6 +19887,23 @@
         },
         {
             "type": 1,
+            "title": "EdgeConnector Modbus",
+            "description": "Connect Modbus TCP Sensors/PLCs and provide the data via OPC UA and MQTT",
+            "categories": [
+                "edge"
+            ],
+            "platform": "linux",
+            "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/softing.png",
+            "image": "softingindustrial/edgeconnector-modbus:latest",
+            "ports": [
+                "443/tcp",
+                "8099/tcp",
+                "4897/tcp"
+            ],
+            "note": "<a href='https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json' target='_blank'>Source</a>"
+        },
+        {
+            "type": 1,
             "title": "Elasticsearch",
             "description": "Open-source search and analytics engine",
             "categories": [
@@ -23209,6 +23275,27 @@
                     "container": "/config"
                 }
             ]
+        },
+        {
+            "type": 1,
+            "title": "Floating License Server",
+            "description": "License Server for Softing edgeConnector products",
+            "categories": [
+                "edge"
+            ],
+            "platform": "linux",
+            "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/softing.png",
+            "image": "softingindustrial/floating-license-server:latest",
+            "ports": [
+                "6200/tcp"
+            ],
+            "interactive": true,
+            "volumes": [
+                {
+                    "container": "/licsrv/licenses"
+                }
+            ],
+            "note": "<a href='https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json' target='_blank'>Source</a>"
         },
         {
             "type": 1,
@@ -33808,6 +33895,55 @@
                 }
             ],
             "restart_policy": "unless-stopped"
+        },
+        {
+            "type": 3,
+            "title": "Kavita",
+            "name": "Kavita",
+            "description": "Web library",
+            "note": "<a href='https://raw.githubusercontent.com/PAPAMICA/docker-compose-collection/master/templates-portainer.json' target='_blank'>Source</a>\nWebsite: <a href='https://github.com/Kareadita/Kavita' target='_blank' rel='noopener'>Github.com</a>",
+            "categories": [
+                "SelfHosted",
+                "Library",
+                "Drack0rr"
+            ],
+            "platform": "linux",
+            "logo": "https://www.kavitareader.com/img/logo.png",
+            "repository": {
+                "stackfile": "composes-files/kavita.yml",
+                "url": "https://github.com/PAPAMICA/docker-compose-collection"
+            },
+            "env": [
+                {
+                    "name": "SERVICE",
+                    "label": "Name of the service ",
+                    "description": "No spaces or points",
+                    "default": "kavita"
+                },
+                {
+                    "name": "DATA_LOCATION",
+                    "label": "Data localization ",
+                    "description": "Example: /apps/service",
+                    "default": "/apps"
+                },
+                {
+                    "name": "URL",
+                    "label": "Service URL",
+                    "description": "Example: service.papamica.fr or service.com"
+                },
+                {
+                    "name": "NETWORK",
+                    "label": "Your Traefik network ",
+                    "description": "Example: proxy",
+                    "default": "proxy"
+                },
+                {
+                    "name": "TIME_ZONE",
+                    "label": "Time zone ",
+                    "description": "Example : Europe/Paris",
+                    "default": "Europe/Paris"
+                }
+            ]
         },
         {
             "categories": [
