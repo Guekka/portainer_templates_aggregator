@@ -4177,6 +4177,22 @@
             "note": "<a href='https://raw.githubusercontent.com/mediadepot/templates/master/portainer.json' target='_blank'>Source</a>"
         },
         {
+            "categories": [
+                "Files"
+            ],
+            "description": "A Dropbox-like file manager that let you manage your data anywhere it is located.",
+            "logo": "https://downloads.filestash.app/brand/logo_white.svg",
+            "name": "filestash",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/filestash.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Filestash",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 1,
             "title": "Filezilla",
             "name": "Filezilla",
@@ -14268,6 +14284,22 @@
                 }
             ],
             "note": "<a href='https://raw.githubusercontent.com/mediadepot/templates/master/portainer.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "CMS"
+            ],
+            "description": "Silverstripe CMS is a free and open source Content Management System (CMS) and Framework for creating and maintaining websites and web applications.",
+            "logo": "https://github.com/brettt89/silverstripe-docker/raw/master/docs/logo.png",
+            "name": "silverstripe",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/silverstripe.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Silverstripe",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "type": 3,
