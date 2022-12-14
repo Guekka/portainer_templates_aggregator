@@ -25490,6 +25490,24 @@
         },
         {
             "categories": [
+                "Analytics",
+                "Monitoring",
+                "Visualization"
+            ],
+            "description": "Grafana is the open source analytics & monitoring solution for every database.",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Grafana_logo.png?20170804201233",
+            "name": "grafana",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/grafana.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Grafana",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Tools",
                 "Other"
             ],
