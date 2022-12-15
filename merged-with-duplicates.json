@@ -30730,6 +30730,39 @@
         },
         {
             "categories": [
+                "Database"
+            ],
+            "description": "InfluxDB is an open source time series database for recording metrics, events, and analytics.",
+            "logo": "https://www.niagaramarketplace.com/media/catalog/product/cache/f7420c7cfd302c73440e50c5a6066c3c/m/a/marketplace_icons_13_.png",
+            "name": "influxdb2",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/influxdb2.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Influxdb",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Database",
+                "Metrics"
+            ],
+            "description": "InfluxDB is an open source time series database for recording metrics, events, and analytics. Telegraf is an agent for collecting metrics and writing them to InfluxDB or other outputs.",
+            "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/influxdb_telegraf.jpg",
+            "name": "influxdb-telegraf",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/influxdb2_telegraf.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Influxdb & Telegraf",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Other",
                 "Tools"
             ],
