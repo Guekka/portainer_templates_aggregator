@@ -33907,7 +33907,7 @@
             "type": 1,
             "title": "Kasm",
             "name": "Kasm",
-            "note": "<a href='https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json' target='_blank'>Source</a>\nPortainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/kasm/opt<br>mkdir -p /volume1/docker/kasm/profiles<br>mkdir -p /volume1/docker/kasm/dev/input<br>mkdir -p /volume1/docker/kasm/run/udev/data</p>",
+            "note": "<a href='https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json' target='_blank'>Source</a>\nPortainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/kasm/opt<br>mkdir -p /volume1/docker/kasm/profiles<br><br></p>",
             "description": "[Kasm](https://www.kasmweb.com/?utm_campaign=LinuxServer&utm_source=listing) Workspaces is a docker container streaming platform for delivering browser-based access to desktops, applications, and web services. Kasm uses devops-enabled Containerized Desktop Infrastructure (CDI) to create on-demand, disposable, docker containers that are accessible via web browser. Example use-cases include Remote Browser Isolation (RBI), Data Loss Prevention (DLP), Desktop as a Service (DaaS), Secure Remote Access Services (RAS), and Open Source Intelligence (OSINT) collections. The rendering of the graphical-based containers is powered by the open-source project [KasmVNC](https://www.kasmweb.com/kasmvnc.html?utm_campaign=LinuxServer&utm_source=kasmvnc).",
             "platform": "linux",
             "logo": "https://kasm-ci.s3.amazonaws.com/kasm_wide.png",
@@ -33954,11 +33954,11 @@
                 },
                 {
                     "container": "/dev/input",
-                    "bind": "/volume1/docker/kasm/dev/input"
+                    "bind": "/dev/input"
                 },
                 {
                     "container": "/run/udev/data",
-                    "bind": "/volume1/docker/kasm/run/udev/data"
+                    "bind": "/run/udev/data"
                 }
             ],
             "restart_policy": "unless-stopped"
@@ -42565,7 +42565,7 @@
                 {
                     "name": "RUN_OPTS",
                     "label": "RUN_OPTS",
-                    "default": "<parameter>",
+                    "default": "",
                     "description": "Specify specific run params for minisatip"
                 }
             ],
@@ -72386,7 +72386,7 @@
                     "name": "DNSPLUGIN",
                     "label": "DNSPLUGIN",
                     "default": "cloudflare",
-                    "description": "Required if `VALIDATION` is set to `dns`. Options are `acmedns`, `aliyun`, `azure`, `cloudflare`, `cloudxns`, `cpanel`, `desec`, `digitalocean`, `directadmin`, `dnsimple`, `dnsmadeeasy`, `dnspod`, `do`, `domeneshop`, `duckdns`, `dynu`, `gandi`, `gehirn`, `godaddy`, `google`, `he`, `hetzner`, `infomaniak`, `inwx`, `ionos`, `linode`, `loopia`, `luadns`, `netcup`, `njalla`, `nsone`, `ovh`, `porkbun`, `rfc2136`, `route53`, `sakuracloud`, `standalone`, `transip`, and `vultr`. Also need to enter the credentials into the corresponding ini (or json for some plugins) file under `/config/dns-conf`."
+                    "description": "Required if `VALIDATION` is set to `dns`. Options are `acmedns`, `aliyun`, `azure`, `cloudflare`, `cpanel`, `desec`, `digitalocean`, `directadmin`, `dnsimple`, `dnsmadeeasy`, `dnspod`, `do`, `domeneshop`, `duckdns`, `dynu`, `gandi`, `gehirn`, `godaddy`, `google`, `he`, `hetzner`, `infomaniak`, `inwx`, `ionos`, `linode`, `loopia`, `luadns`, `netcup`, `njalla`, `nsone`, `ovh`, `porkbun`, `rfc2136`, `route53`, `sakuracloud`, `standalone`, `transip`, and `vultr`. Also need to enter the credentials into the corresponding ini (or json for some plugins) file under `/config/dns-conf`."
                 },
                 {
                     "name": "PROPAGATION",
@@ -85683,6 +85683,23 @@
                     "label": "Admin password for YourLS"
                 }
             ]
+        },
+        {
+            "categories": [
+                "Music",
+                "Monitoring"
+            ],
+            "description": "YourSpotify is a self-hosted application that tracks what you listen and offers you a dashboard to explore statistics about it!",
+            "logo": "",
+            "name": "your_spotify",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/your_spotify.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Your_spotify",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "type": 1,
