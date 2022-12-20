@@ -1331,6 +1331,22 @@
         },
         {
             "categories": [
+                "Podcast"
+            ],
+            "description": "Castopod is a free and open-source hosting platform made for podcasters.",
+            "logo": "https://pbs.twimg.com/profile_images/1313854745161932800/w_qe6Qq6_400x400.png",
+            "name": "castopod",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/castopod.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Castopod",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Network"
             ],
             "description": "Self-hosted website change detection monitoring.",
@@ -8314,35 +8330,20 @@
             ]
         },
         {
-            "type": 1,
-            "title": "Mautic",
-            "description": "Open-source marketing automation platform",
             "categories": [
-                "marketing"
+                "Marketing"
             ],
+            "description": "Mautic provides free and open source marketing automation software available to everyone. ",
+            "logo": "https://www.mautic.org/themes/custom/mauticorg_base/logo.svg",
+            "name": "mautic",
             "platform": "linux",
-            "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mautic.png",
-            "image": "mautic/mautic:latest",
-            "env": [
-                {
-                    "name": "MAUTIC_DB_HOST",
-                    "label": "MySQL database host",
-                    "type": "container"
-                },
-                {
-                    "name": "MAUTIC_DB_PASSWORD",
-                    "label": "Database password"
-                }
-            ],
-            "ports": [
-                "80/tcp"
-            ],
-            "volumes": [
-                {
-                    "container": "/var/www/html"
-                }
-            ],
-            "note": "<a href='https://raw.githubusercontent.com/mikestraney/portainer-templates/master/templates.json' target='_blank'>Source</a>"
+            "repository": {
+                "stackfile": "Template/Stack/mautic.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Mautic",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "type": 3,
