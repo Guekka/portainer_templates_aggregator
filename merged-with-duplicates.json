@@ -9118,6 +9118,22 @@
         },
         {
             "categories": [
+                "Employee"
+            ],
+            "description": "ChiefOnboarding is a free and open source employee onboarding platform. You can onboarding new hires through Slack or the dashboard.",
+            "logo": "https://chiefonboarding.com/wp-content/uploads/2022/07/ChiefOnBoarding-768x138.png",
+            "name": "chiefonboarding",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/chiefonboarding.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Chiefonboarding",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Tools"
             ],
             "description": "Have recipes in seconds with plain text formatting and create beatiful recipe pages with automated ease.",
