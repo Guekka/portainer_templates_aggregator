@@ -5194,6 +5194,12 @@
                     "description": "for GroupID"
                 },
                 {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Europe/Amsterdam",
+                    "description": "Specify a timezone to use for example Europe/Amsterdam"
+                },
+                {
                     "name": "APP_URL",
                     "label": "APP_URL",
                     "default": "",
