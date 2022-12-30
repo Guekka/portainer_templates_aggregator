@@ -8943,7 +8943,7 @@
             "categories": [
                 "Other",
                 "Tools",
-                "Photo"
+                "Photos"
             ],
             "description": "Chevereto is a powerful and fast image hosting script that allows you to create your very own full featured image hosting website in just minutes. Please note that this offers only the free Chevereto version.",
             "env": [
@@ -30173,6 +30173,18 @@
                 "Tools"
             ],
             "description": "A dead simple static HOMepage for your servER to keep your s ervices on hand, from a simple yaml configuration file.",
+            "env": [
+                {
+                    "default": "1000",
+                    "label": "PUID",
+                    "name": "PUID"
+                },
+                {
+                    "default": "100",
+                    "label": "PGID",
+                    "name": "PGID"
+                }
+            ],
             "image": "b4bz/homer:latest",
             "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/homer.png",
             "name": "homer",
@@ -54671,7 +54683,7 @@
                     "name": "PGID"
                 }
             ],
-            "image": "hotio/overseerr:release",
+            "image": "hotio/overseerr:latest",
             "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/overseerr-icon.png",
             "name": "Overseerr",
             "platform": "linux",
@@ -75428,7 +75440,8 @@
         {
             "categories": [
                 "Other",
-                "Tools"
+                "Tools",
+                "Wiki"
             ],
             "description": "A unique, non-linear notebook wiki.",
             "image": "mazzolino/tiddlywiki:latest",
@@ -80859,6 +80872,29 @@
             ]
         },
         {
+            "categories": [
+                "Task Server"
+            ],
+            "description": "It is a self-hosted monitoring tool like Uptime Robot",
+            "image": "louislam/uptime-kuma:latest",
+            "logo": "https://images.opencollective.com/uptime-kuma/29c5113/logo/256.png",
+            "name": "uptime-kuma",
+            "platform": "linux",
+            "ports": [
+                "3001:3001/tcp"
+            ],
+            "restart_policy": "always",
+            "title": "Uptime Kuma",
+            "type": 1,
+            "volumes": [
+                {
+                    "bind": "/portainer/Files/AppData/Config/UptimeKuma",
+                    "container": "/app/data"
+                }
+            ],
+            "note": "<a href='https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 1,
             "title": "Urbackup",
             "description": "Open-source network backup",
@@ -83782,7 +83818,8 @@
         {
             "categories": [
                 "Other",
-                "Tools"
+                "Tools",
+                "Wiki"
             ],
             "description": "Wikijs A modern, lightweight and powerful wiki app built on NodeJS.",
             "image": "linuxserver/wikijs:latest",
