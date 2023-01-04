@@ -14385,6 +14385,22 @@
         },
         {
             "categories": [
+                "Messaging"
+            ],
+            "description": "A TLS proxy relay for the Signal privacy messenger app.",
+            "logo": "https://avatars.githubusercontent.com/u/702459?s=200&v=4",
+            "name": "signal",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/signal.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Signal Proxy",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "CMS"
             ],
             "description": "Silverstripe CMS is a free and open source Content Management System (CMS) and Framework for creating and maintaining websites and web applications.",
