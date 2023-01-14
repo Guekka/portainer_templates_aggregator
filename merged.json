@@ -4450,6 +4450,55 @@
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
+            "type": 3,
+            "title": "Flaresolverr",
+            "name": "Flaresolverr",
+            "description": "FlareSolverr is a proxy server to bypass Cloudflare and DDoS-GUARD protection.",
+            "note": "<a href='https://raw.githubusercontent.com/PAPAMICA/docker-compose-collection/master/templates-portainer.json' target='_blank'>Source</a>\nWebsite: <a href='https://github.com/FlareSolverr/FlareSolverr' target='_blank' rel='noopener'>Github.com</a>",
+            "categories": [
+                "SelfHosted",
+                "plex",
+                "PAPAMICA"
+            ],
+            "platform": "linux",
+            "logo": "https://img.papamica.com/logo/flaresolverr.png",
+            "repository": {
+                "stackfile": "composes-files/flaresolverr.yml",
+                "url": "https://github.com/PAPAMICA/docker-compose-collection"
+            },
+            "env": [
+                {
+                    "name": "SERVICE",
+                    "label": "Name of the service ",
+                    "description": "No spaces or points",
+                    "default": "flaresolverr"
+                },
+                {
+                    "name": "URL",
+                    "label": "Service URL",
+                    "description": "Example: service.papamica.fr or service.com"
+                },
+                {
+                    "name": "CAPTCHA_SOLVER",
+                    "label": "Captcha solver ",
+                    "description": "Check documentation on Github",
+                    "default": "none"
+                },
+                {
+                    "name": "TZ",
+                    "label": "Time Zone ",
+                    "description": "Ex : Europe/Paris",
+                    "default": "Europe/Paris"
+                },
+                {
+                    "name": "NETWORK",
+                    "label": "Your Traefik network ",
+                    "description": "Example: proxy",
+                    "default": "proxy"
+                }
+            ]
+        },
+        {
             "type": 1,
             "title": "Fleet",
             "name": "Fleet",
@@ -8822,6 +8871,22 @@
                 }
             ],
             "note": "<a href='https://raw.githubusercontent.com/mikestraney/portainer-templates/master/templates.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Multimedia"
+            ],
+            "description": "Your media enjoyed through a minimal lightweight media server.",
+            "logo": "https://github.com/midarrlabs/midarr-server/raw/master/priv/static/logo.svg",
+            "name": "midarr",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/midarr.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Midarr",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "type": 3,
@@ -16956,6 +17021,22 @@
                     "container": "/config"
                 }
             ],
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Adult"
+            ],
+            "description": "Whisparr is an adult movie collection manager for Usenet and BitTorrent users.",
+            "logo": "https://whisparr.com/logo/256.png",
+            "name": "whisparr",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/whisparr.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Whisparr",
+            "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
