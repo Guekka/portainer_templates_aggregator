@@ -10753,6 +10753,22 @@
         },
         {
             "categories": [
+                "ebooks"
+            ],
+            "description": "Codex is a web server comic book browser and reader.",
+            "logo": "https://github.com/ajslater/codex/raw/main/codex/static_src/img/logo.svg",
+            "name": "codex",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/codex.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Codex",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Productivity"
             ],
             "description": "Codiad is a web-based IDE framework with a small footprint and minimal requirements.",
