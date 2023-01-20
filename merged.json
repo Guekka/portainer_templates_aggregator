@@ -661,7 +661,7 @@
                 "Productivity"
             ],
             "description": "Open source no-code database and Airtable alternative.Create your own online database without technical experience. Our user friendly no-code tool gives you the powers of a developer without leaving your browser.",
-            "logo": "https://baserow.io/_nuxt/img/logo.1421f77.svg",
+            "logo": "https://].io/_nuxt/img/logo.1421f77.svg",
             "name": "Baserow",
             "platform": "linux",
             "repository": {
@@ -4053,6 +4053,22 @@
                 "url": "https://github.com/xneo1/portainer_templates"
             },
             "title": "Ferdi Server",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Messenger"
+            ],
+            "description": "Ferdium is a messaging browser that allows you to combine your favourite messaging services into one application",
+            "logo": "https://github.com/ferdium/ferdium-server/raw/main/logo.png",
+            "name": "ferdium",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/ferdium.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Ferdium",
             "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
@@ -10347,6 +10363,22 @@
             "restart_policy": "unless-stopped"
         },
         {
+            "categories": [
+                "Productivity"
+            ],
+            "description": "Turns any MySQL, PostgreSQL, SQL Server, SQLite & MariaDB into a smart-spreadsheet.",
+            "logo": "https://github.com/nocodb/nocodb/raw/develop/packages/nc-gui/assets/img/icons/512x512.png",
+            "name": "NocoDB",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/nocodb.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "NocoDB",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 1,
             "title": "NodeJS",
             "description": "JavaScript-based platform for server-side and networking applications",
@@ -14716,7 +14748,7 @@
                 "Other"
             ],
             "description": "Snippet Box is a simple self-hosted app for organizing your code snippets. It allows you to easily create, edit, browse and manage your snippets in various languages.",
-            "logo": "https://raw.githubusercontent.com/getferdi/server/master/logo.png",
+            "logo": "",
             "name": "snippet-box",
             "platform": "linux",
             "repository": {
