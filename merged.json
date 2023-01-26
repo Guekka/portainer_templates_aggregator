@@ -2606,6 +2606,22 @@
         },
         {
             "categories": [
+                "Docker"
+            ],
+            "description": "Docker Container Stats is a web interface for viewing historical and current statistics per docker container (cpu, mem, net i/o, block i/o) - in a docker container.",
+            "logo": "",
+            "name": "Docker Container Stats",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/docker-container-stats.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Docker Container Stats",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Docker",
                 "Tools",
                 "Other"
