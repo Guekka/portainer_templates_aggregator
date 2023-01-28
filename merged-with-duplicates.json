@@ -15962,7 +15962,6 @@
             "platform": "linux",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/digikam.png",
             "image": "linuxserver/digikam:latest",
-            "network": "host",
             "env": [
                 {
                     "name": "PUID",
@@ -23696,6 +23695,22 @@
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
+            "categories": [
+                "Helpdesk"
+            ],
+            "description": "FreeScout\u00a0is the super lightweight free open source help desk and shared inbox written in PHP (Laravel framework) \u2013 self hosted clone of HelpScout.",
+            "logo": "https://raw.githubusercontent.com/freescout-helpdesk/freescout/master/public/img/logo-300.png",
+            "name": "freescout",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/freescout.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Freescout",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 3,
             "title": "FreshRSS",
             "name": "FreshRSS",
@@ -23745,7 +23760,7 @@
         },
         {
             "categories": [
-                "Other"
+                "Feed Reader"
             ],
             "description": "A free, self-hostable rss aggregator.",
             "env": [
@@ -42676,6 +42691,22 @@
         },
         {
             "categories": [
+                "Feed Reader"
+            ],
+            "description": "Miniflux is a minimalist and opinionated feed reader.",
+            "logo": "",
+            "name": "miniflux",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/miniflux.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Miniflux",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Tools",
                 "Productivity",
                 "Web",
@@ -43449,6 +43480,22 @@
                 "url": "https://github.com/xneo1/portainer_templates"
             },
             "title": "Monica",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Learning"
+            ],
+            "description": "Moodle is a learning platform designed to provide educators, administrators and learners with a single robust, secure and integrated system to create personalised learning environments.",
+            "logo": "https://download.moodle.org/theme/moodleorgcleaned/pix/moodle_logo_TM.svg",
+            "name": "moodle",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/moodle.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Moodle",
             "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
@@ -61468,6 +61515,22 @@
             "note": "<a href='https://raw.githubusercontent.com/mediadepot/templates/master/portainer.json' target='_blank'>Source</a>"
         },
         {
+            "categories": [
+                "Social"
+            ],
+            "description": "https://github.com/pablouser1/ProxiTok",
+            "logo": "",
+            "name": "proxitok",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/proxitok.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "ProxiTok",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 1,
             "name": "pureftp",
             "title": "Pure-FTP Server",
@@ -74728,6 +74791,22 @@
             "note": "<a href='https://raw.githubusercontent.com/mediadepot/templates/master/portainer.json' target='_blank'>Source</a>"
         },
         {
+            "categories": [
+                "Multimedia"
+            ],
+            "description": "Tdarr is a popular conditional transcoding application for processing large (or small) media libraries.",
+            "logo": "https://tdarr.io/static/media/logo3.02a3f4a3.png",
+            "name": "tdarr",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/tdarr.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Tdarr",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 3,
             "title": "TeamSpeak",
             "name": "TeamSpeak",
@@ -76237,6 +76316,22 @@
                     "container": "/var/run/docker.sock"
                 }
             ]
+        },
+        {
+            "categories": [
+                "Time Tracking"
+            ],
+            "description": "Traggo is a tag-based time tracking tool. In Traggo there are no tasks, only tagged time spans.",
+            "logo": "https://traggo.net/images/favicon.png",
+            "name": "traggo",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/traggo.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Traggo",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "type": 3,
@@ -80995,22 +81090,15 @@
                 "Network"
             ],
             "description": "It is a self-hosted monitoring tool like Uptime Robot",
-            "image": "louislam/uptime-kuma:latest",
             "logo": "https://images.opencollective.com/uptime-kuma/29c5113/logo/256.png",
             "name": "uptime-kuma",
             "platform": "linux",
-            "ports": [
-                "3001:3001/tcp"
-            ],
-            "restart_policy": "always",
+            "repository": {
+                "stackfile": "Template/Stack/uptimekuma.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
             "title": "Uptime Kuma",
-            "type": 1,
-            "volumes": [
-                {
-                    "bind": "/portainer/Files/AppData/Config/UptimeKuma",
-                    "container": "/app/data"
-                }
-            ],
+            "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
@@ -83293,6 +83381,22 @@
                     "container": "/var/run/docker.sock"
                 }
             ]
+        },
+        {
+            "categories": [
+                "Fitness"
+            ],
+            "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker written with Django",
+            "logo": "https://raw.githubusercontent.com/wger-project/wger/master/wger/core/static/images/logos/logo.png",
+            "name": "wger",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/wger.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Wger",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "categories": [

@@ -2447,7 +2447,6 @@
             "platform": "linux",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/digikam.png",
             "image": "linuxserver/digikam:latest",
-            "network": "host",
             "env": [
                 {
                     "name": "PUID",
@@ -4736,6 +4735,22 @@
             ],
             "restart_policy": "always",
             "title": "Freeboard",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Helpdesk"
+            ],
+            "description": "FreeScout\u00a0is the super lightweight free open source help desk and shared inbox written in PHP (Laravel framework) \u2013 self hosted clone of HelpScout.",
+            "logo": "https://raw.githubusercontent.com/freescout-helpdesk/freescout/master/public/img/logo-300.png",
+            "name": "freescout",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/freescout.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Freescout",
             "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
@@ -9131,41 +9146,19 @@
         },
         {
             "categories": [
-                "Tools",
-                "Productivity",
-                "Web",
-                "Other"
+                "Feed Reader"
             ],
-            "description": "Miniflux.",
-            "env": [
-                {
-                    "default": "8080",
-                    "label": "Miniflux Port",
-                    "name": "MINIFLUX_PORT"
-                },
-                {
-                    "default": "admin",
-                    "label": "Miniflux Username",
-                    "name": "MINIFLUX_USERNAME"
-                },
-                {
-                    "label": "Miniflux Password",
-                    "name": "MINIFLUX_PASSWORD"
-                },
-                {
-                    "label": "Postgres Password",
-                    "name": "POSTGRES_PASSWORD"
-                }
-            ],
+            "description": "Miniflux is a minimalist and opinionated feed reader.",
+            "logo": "",
+            "name": "miniflux",
             "platform": "linux",
             "repository": {
-                "stackfile": "stacks/miniflux.yml",
-                "url": "https://github.com/OliverCullimore/portainer-templates"
+                "stackfile": "Template/Stack/miniflux.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
             },
             "title": "Miniflux",
-            "name": "miniflux",
             "type": 3,
-            "note": "<a href='https://raw.githubusercontent.com/OliverCullimore/portainer-templates/master/templates.json' target='_blank'>Source</a>"
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "type": 1,
@@ -9266,6 +9259,22 @@
                 "url": "https://github.com/xneo1/portainer_templates"
             },
             "title": "Monica",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Learning"
+            ],
+            "description": "Moodle is a learning platform designed to provide educators, administrators and learners with a single robust, secure and integrated system to create personalised learning environments.",
+            "logo": "https://download.moodle.org/theme/moodleorgcleaned/pix/moodle_logo_TM.svg",
+            "name": "moodle",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/moodle.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Moodle",
             "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
@@ -12580,6 +12589,22 @@
             ]
         },
         {
+            "categories": [
+                "Social"
+            ],
+            "description": "https://github.com/pablouser1/ProxiTok",
+            "logo": "",
+            "name": "proxitok",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/proxitok.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "ProxiTok",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 1,
             "name": "pureftp",
             "title": "Pure-FTP Server",
@@ -15651,6 +15676,22 @@
             ]
         },
         {
+            "categories": [
+                "Multimedia"
+            ],
+            "description": "Tdarr is a popular conditional transcoding application for processing large (or small) media libraries.",
+            "logo": "https://tdarr.io/static/media/logo3.02a3f4a3.png",
+            "name": "tdarr",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/tdarr.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Tdarr",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 3,
             "title": "TeamSpeak",
             "name": "TeamSpeak",
@@ -15939,6 +15980,22 @@
                     "description": "Format: USER:{SHA}XXXXXXXXXXXXXXXX"
                 }
             ]
+        },
+        {
+            "categories": [
+                "Time Tracking"
+            ],
+            "description": "Traggo is a tag-based time tracking tool. In Traggo there are no tasks, only tagged time spans.",
+            "logo": "https://traggo.net/images/favicon.png",
+            "name": "traggo",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/traggo.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Traggo",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "type": 3,
@@ -17078,6 +17135,22 @@
                     "container": "/config"
                 }
             ],
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Fitness"
+            ],
+            "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker written with Django",
+            "logo": "https://raw.githubusercontent.com/wger-project/wger/master/wger/core/static/images/logos/logo.png",
+            "name": "wger",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/wger.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Wger",
+            "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
