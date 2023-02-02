@@ -1550,6 +1550,24 @@
         },
         {
             "categories": [
+                "Productivity",
+                "Development",
+                "Low-code"
+            ],
+            "description": "Appsmith (www.appsmith.com) is the first open-source low code tool that helps developers build dashboards and admin panels very quickly.",
+            "logo": "https://cdn-images.himalayas.app/vr60veq4neiptamhqm6qxwi3toi3",
+            "name": "appsmith",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/appsmith.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Appsmith",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Development"
             ],
             "description": "Appwrite is a self-hosted backend-as-a-service platform that provides developers with all the core APIs required to build any application.",
@@ -2519,7 +2537,9 @@
         },
         {
             "categories": [
-                "Productivity"
+                "Productivity",
+                "Development",
+                "No-code"
             ],
             "description": "Open source no-code database and Airtable alternative.Create your own online database without technical experience. Our user friendly no-code tool gives you the powers of a developer without leaving your browser.",
             "logo": "https://].io/_nuxt/img/logo.1421f77.svg",
@@ -5954,6 +5974,25 @@
                     "container": "/config"
                 }
             ]
+        },
+        {
+            "categories": [
+                "Productivity",
+                "Development",
+                "Low-code",
+                "No-code"
+            ],
+            "description": "Budibase allows no-code users to build apps quickly, with more functionality available with a little bit of inline code.",
+            "logo": "https://files.readme.io/593b386-budibase-logo-website.svg",
+            "name": "budibase",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/budibase.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Budibase",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "categories": [
@@ -41809,6 +41848,22 @@
             "note": "<a href='https://raw.githubusercontent.com/OliverCullimore/portainer-templates/master/templates.json' target='_blank'>Source</a>"
         },
         {
+            "categories": [
+                "Search"
+            ],
+            "description": "Meilisearch is a\u00a0**RESTful search API**. It aims to be a\u00a0**ready-to-go solution**\u00a0for everyone who wants a\u00a0**fast and relevant search experience**\u00a0for their end-users",
+            "logo": "https://docs.meilisearch.com/logo.svg",
+            "name": "Meilisearch",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/meilisearch.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Meilisearch",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 2,
             "title": "Microsoft OMS Agent",
             "description": "Microsoft Operations Management Suite Linux agent.",
@@ -51079,7 +51134,9 @@
         },
         {
             "categories": [
-                "Productivity"
+                "Productivity",
+                "Development",
+                "No-code"
             ],
             "description": "Turns any MySQL, PostgreSQL, SQL Server, SQLite & MariaDB into a smart-spreadsheet.",
             "logo": "https://github.com/nocodb/nocodb/raw/develop/packages/nc-gui/assets/img/icons/512x512.png",
@@ -54536,6 +54593,40 @@
                 }
             ],
             "note": "<a href='https://raw.githubusercontent.com/OliverCullimore/portainer-templates/master/templates.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Identity Management",
+                "Security"
+            ],
+            "description": "Ory Kratos with Oathkeeper (ORY Oathkeeper is an Identity & Access Proxy (IAP) and Access Control Decision API that authorizes HTTP requests based on sets of Access Rules.) ",
+            "logo": "https://raw.githubusercontent.com/ory/meta/master/static/banners/oathkeeper.svg",
+            "name": "Ory Kratos Oathkeeper",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/ory-kratos-oathkeeper.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Ory Kratos (Oathkeeper)",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Identity Management",
+                "Access proxy"
+            ],
+            "description": "Ory Kratos with Oathkeeper is\u00a0_the_\u00a0developer-friendly, security-hardened and battle-test Identity, User Management and Authentication system for the Cloud.",
+            "logo": "https://raw.githubusercontent.com/ory/meta/master/static/banners/kratos.svg",
+            "name": "Ory Kratos",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/ory-kratos-standalone.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Ory Kratos (Standalone)",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "type": 1,
@@ -73073,48 +73164,6 @@
             "categories": [
                 "Backup",
                 "Cloud",
-                "Tools"
-            ],
-            "description": "Syncthing is a continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes.",
-            "env": [
-                {
-                    "default": "1000",
-                    "label": "PUID",
-                    "name": "PUID"
-                },
-                {
-                    "default": "100",
-                    "label": "PGID",
-                    "name": "PGID"
-                }
-            ],
-            "image": "linuxserver/syncthing:latest",
-            "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/syncthing-icon.png",
-            "name": "syncthing",
-            "platform": "linux",
-            "ports": [
-                "8384:8384/tcp",
-                "21027:21027/udp",
-                "22000:22000/tcp"
-            ],
-            "restart_policy": "unless-stopped",
-            "title": "SyncThing",
-            "type": 1,
-            "volumes": [
-                {
-                    "bind": "/portainer/Files/AppData/Config/Syncthing",
-                    "container": "/config"
-                },
-                {
-                    "container": "/sync"
-                }
-            ],
-            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
-        },
-        {
-            "categories": [
-                "Backup",
-                "Cloud",
                 "Other",
                 "Tools"
             ],
@@ -73706,6 +73755,25 @@
             "restart_policy": "unless-stopped",
             "title": "Synclounge",
             "type": 1
+        },
+        {
+            "categories": [
+                "Sync",
+                "Backup",
+                "Cloud",
+                "Tools"
+            ],
+            "description": "Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralized. ",
+            "logo": "https://github.com/syncthing/syncthing/raw/main/assets/logo-text-128.png",
+            "name": "Syncthing",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/syncthing.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Syncthing",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "type": 1,
