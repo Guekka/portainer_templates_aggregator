@@ -3818,6 +3818,23 @@
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
+            "categories": [
+                "Productivity",
+                "Drawing"
+            ],
+            "description": "Virtual whiteboard for sketching hand-drawn like diagrams. Collaborative and end-to-end encrypted.",
+            "logo": "https://github.com/excalidraw/excalidraw/raw/master/public/og-image-sm.png",
+            "name": "excalidraw",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/excalidraw.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Excalidraw",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 3,
             "title": "FDO",
             "description": "FDO",
@@ -16642,6 +16659,22 @@
                 }
             ],
             "note": "<a href='https://raw.githubusercontent.com/donPabloNow/selfhosted-saas/master/Template/portainer-v2.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Network"
+            ],
+            "description": "UpSnap is a simple wake on lan app written with SvelteKit, Go, PocketBase and nmap.",
+            "logo": "https://github.com/seriousm4x/UpSnap/raw/master/frontend/static/favicon.png",
+            "name": "upsnap",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/upsnap.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Upsnap",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "type": 3,
