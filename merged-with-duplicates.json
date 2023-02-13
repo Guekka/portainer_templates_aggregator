@@ -182,6 +182,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -1251,6 +1257,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -1486,6 +1498,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -1820,6 +1838,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -2486,6 +2510,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -2676,6 +2706,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -3400,6 +3436,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -4139,6 +4181,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -4190,6 +4238,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -4989,6 +5043,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -5212,6 +5272,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -5914,6 +5980,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -6772,6 +6844,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -7530,6 +7608,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -8122,6 +8206,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -10660,6 +10750,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -11529,6 +11625,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -12427,6 +12529,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -12953,6 +13061,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -13675,6 +13789,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -14257,6 +14377,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -14847,6 +14973,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -16017,6 +16149,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -16170,6 +16308,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -16252,6 +16396,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -16448,6 +16598,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -16629,6 +16785,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -16751,6 +16913,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -17322,6 +17490,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -17605,6 +17779,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -18856,6 +19036,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -19128,6 +19314,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -20254,6 +20446,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -21326,6 +21524,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -21402,6 +21606,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -21506,6 +21716,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -21781,6 +21997,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -21889,6 +22111,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -22063,6 +22291,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -22832,6 +23066,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -22924,6 +23164,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -23383,6 +23629,12 @@
                     "description": "for GroupID"
                 },
                 {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
                     "name": "fleet_admin_authentication_type",
                     "label": "fleet_admin_authentication_type",
                     "default": "DATABASE",
@@ -23530,6 +23782,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -24290,6 +24548,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -25846,6 +26110,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -25965,6 +26235,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -27421,6 +27697,12 @@
                     "description": "for GroupID"
                 },
                 {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
                     "name": "SEC_KEY",
                     "label": "SEC_KEY",
                     "default": "<Your Key To Encrypt Security Data>",
@@ -27614,6 +27896,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -28314,6 +28602,12 @@
                     "description": "for GroupID"
                 },
                 {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
                     "name": "SITE_ROOT",
                     "label": "SITE_ROOT",
                     "default": "",
@@ -28685,6 +28979,12 @@
                     "description": "for GroupID"
                 },
                 {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
                     "name": "DB_HOST",
                     "label": "DB_HOST",
                     "default": "<hostname or ip>",
@@ -28918,6 +29218,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -29614,6 +29920,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -30452,6 +30764,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -31645,6 +31963,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -32116,6 +32440,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -32128,7 +32458,7 @@
                 {
                     "name": "RUN_OPTS",
                     "label": "RUN_OPTS",
-                    "default": "<run options here>",
+                    "default": "",
                     "description": "Optionally specify additional arguments to be passed."
                 }
             ],
@@ -32881,6 +33211,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -33779,6 +34115,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -34372,6 +34714,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -35552,6 +35900,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -37116,6 +37470,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -37195,6 +37555,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -37584,6 +37950,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -37780,6 +38152,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -38050,6 +38428,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -39772,6 +40156,12 @@
                     "description": "for GroupID"
                 },
                 {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
                     "name": "MYSQL_ROOT_PASSWORD",
                     "label": "MYSQL_ROOT_PASSWORD",
                     "default": "ROOT_ACCESS_PASSWORD",
@@ -39913,6 +40303,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -41265,6 +41661,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -41881,6 +42283,22 @@
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
+            "categories": [
+                "Remote Control"
+            ],
+            "description": "MeshCentral is a full computer management web site. With MeshCentral, you can run your own web server to remotely manage and control computers on a local network or anywhere on the internet. ",
+            "logo": "https://repository-images.githubusercontent.com/101663032/a0f76700-4b4f-11eb-981e-ee7eea9fddf2",
+            "name": "meshcentral",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/meshcentral.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Meshcentral",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 2,
             "title": "Microsoft OMS Agent",
             "description": "Microsoft Operations Management Suite Linux agent.",
@@ -42282,6 +42700,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -42971,6 +43395,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -43690,6 +44120,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -46762,6 +47198,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 }
             ],
             "ports": [
@@ -46846,6 +47288,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -47992,6 +48440,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -48300,6 +48754,12 @@
                     "description": "for GroupID"
                 },
                 {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
                     "name": "MENU_VERSION",
                     "label": "MENU_VERSION",
                     "default": "1.9.9",
@@ -48431,6 +48891,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -49038,6 +49504,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -49886,6 +50358,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -50990,6 +51468,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -51066,6 +51550,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "PUID",
@@ -51396,6 +51886,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -51504,6 +52000,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -52483,6 +52985,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -53818,6 +54326,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -54002,6 +54516,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -54722,6 +55242,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -54968,6 +55494,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -55419,6 +55951,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -56570,6 +57108,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -57437,6 +57981,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -57591,6 +58141,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -58306,6 +58862,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "VERSION",
@@ -59555,6 +60117,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -61001,6 +61569,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -61558,6 +62132,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -61826,6 +62406,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -62441,6 +63027,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -62547,6 +63139,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -62633,6 +63231,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -62761,6 +63365,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -62861,6 +63471,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -63408,6 +64024,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -63498,6 +64120,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "QUASSEL_CORE",
@@ -63888,6 +64516,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -64587,6 +65221,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -64773,6 +65413,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -65744,6 +66390,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -65798,6 +66450,22 @@
                     "container": "/config"
                 }
             ]
+        },
+        {
+            "categories": [
+                "Remote Control"
+            ],
+            "description": "Remotely is a remote control and remote scripting solution, built with .NET 6, Blazor, and SignalR Core.",
+            "logo": "",
+            "name": "Remotely",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/remotely.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Remotely",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "type": 3,
@@ -65872,6 +66540,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -66586,6 +67260,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -66687,6 +67367,22 @@
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
+            "categories": [
+                "Remote Control"
+            ],
+            "description": "RPort is free remote access and remote management, now acquired by RealVNC",
+            "logo": "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_634014ae8000cebecce8a571f9ea316f/cloudradar-gmbh-rport.png",
+            "name": "Rport",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/rport.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Rport",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 1,
             "title": "Rsnapshot",
             "name": "Rsnapshot",
@@ -66707,6 +67403,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -66833,6 +67535,22 @@
                     "label": "Database user password"
                 }
             ]
+        },
+        {
+            "categories": [
+                "Remote Control"
+            ],
+            "description": "Rust Desk is an Open source virtual or remote desktop infrastructure for everyone!",
+            "logo": "https://images.sftcdn.net/images/t_app-logo-xl,f_auto,dpr_2/p/735e7f11-0f1e-492d-bfa4-4be6eead5179/3131069239/rustdesk-unnamed.png",
+            "name": "Rust Desk",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/rustdesk.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Rust Desk",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "type": 3,
@@ -67790,6 +68508,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -70230,6 +70954,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -70322,6 +71052,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -70998,6 +71734,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -71082,6 +71824,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -71403,6 +72151,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "APP_URL",
@@ -71814,6 +72568,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -72675,6 +73435,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -72995,6 +73761,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -73869,6 +74641,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -73970,6 +74748,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -74178,6 +74962,23 @@
             ]
         },
         {
+            "categories": [
+                "Productivity",
+                "DevTools"
+            ],
+            "description": "Tabby is an infinitely customizable cross-platform terminal app for local shells, serial, SSH and Telnet connections.",
+            "logo": "https://tabby.sh/32bf32ff6c87e8d18932.svg",
+            "name": "Tabby",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/tabby.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Tabby",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "description": "[Taisun](https://www.taisun.io/) is an application for a Docker enabled device with an emphasis on providing a web based interface for managing a single server. Taisun allows you to: - Deploy and manage web based virtual desktops. - Deploy Taisun specific stacks of applications - Browse available images on popular Docker repositories - Import a Docker project from any git repository and start developing on your choice of web based IDE or full Linux desktop - Spinup a developer container based on popular frameworks and work from a web based IDE - Single click remote server access to Taisun and your Docker applications",
             "image": "linuxserver/taisun:latest",
             "logo": "https://raw.githubusercontent.com/Taisun-Docker/taisun/master/public/favicon/apple-icon-180x180.png",
@@ -74329,6 +75130,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -75572,6 +76379,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -76616,6 +77429,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -78503,6 +79322,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -79190,6 +80015,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -81100,6 +81931,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -83291,6 +84128,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 }
@@ -83453,6 +84296,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -84001,6 +84850,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -84571,6 +85426,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -84880,6 +85741,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -85402,6 +86269,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -86512,6 +87385,12 @@
                 {
                     "name": "TZ",
                     "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "Specify a timezone to use for example Europe/Amsterdam"
                 },
@@ -86573,6 +87452,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
@@ -87220,6 +88105,12 @@
                     "label": "PGID",
                     "default": "100",
                     "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Etc/UTC",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
                 },
                 {
                     "name": "TZ",
