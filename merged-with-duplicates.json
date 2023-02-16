@@ -13446,7 +13446,7 @@
                 "System"
             ],
             "description": "Dashdot is a modern server dashboard, running on the latest tech, designed with glassmorphism in mind. It is intended to be used for smaller VPS and private servers.",
-            "logo": "https://github.com/MauriceNino/dashdot/raw/main/.github/images/banner_muted.png",
+            "logo": "https://getdashdot.com/img/logo512.png",
             "name": "dashdot",
             "platform": "linux",
             "repository": {
@@ -16658,6 +16658,23 @@
                     "container": "/config"
                 }
             ]
+        },
+        {
+            "categories": [
+                "Wiki",
+                "Knowledge Base"
+            ],
+            "description": "Documize Community is an open source, modern, self-hosted, enterprise-grade knowledge management solution.",
+            "logo": "",
+            "name": "documize",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/documize.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Documize",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "type": 1,
@@ -29802,6 +29819,22 @@
                 }
             ],
             "note": "<a href='https://raw.githubusercontent.com/mediadepot/templates/master/portainer.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Dashboard"
+            ],
+            "description": "Simplify the management of your server with Homarr - a sleek, modern dashboard that puts all of your apps and services at your fingertips.",
+            "logo": "https://homarr.dev/img/logo.svg",
+            "name": "homarr",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/homarr.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Homarr",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "type": 3,
