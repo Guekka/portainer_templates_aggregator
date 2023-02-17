@@ -31293,6 +31293,23 @@
         },
         {
             "categories": [
+                "Photos",
+                "AI"
+            ],
+            "description": "Immich is a high performance self-hosted photo and video backup solution.",
+            "logo": "https://github.com/immich-app/immich/raw/main/design/immich-logo.svg",
+            "name": "immich",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/immich/immich.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Immich",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Database",
                 "Tools",
                 "Other"
