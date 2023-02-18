@@ -6416,7 +6416,7 @@
             "name": "immich",
             "platform": "linux",
             "repository": {
-                "stackfile": "Template/Stack/immich/immich.yml",
+                "stackfile": "Template/Stack/immich.yml",
                 "url": "https://github.com/xneo1/portainer_templates"
             },
             "title": "Immich",
