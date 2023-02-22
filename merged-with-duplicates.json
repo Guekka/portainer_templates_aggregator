@@ -3,58 +3,6 @@
     "templates": [
         {
             "categories": [
-                "Adblocking"
-            ],
-            "description": "AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it\u2019ll cover ALL your home devices, and you don\u2019t need any client-side software for that. With the rise of Internet-Of-Things and connected devices, it becomes more and more important to be able to control your wnetwork.",
-            "env": [
-                {
-                    "default": "1000",
-                    "label": "PUID",
-                    "name": "PUID"
-                },
-                {
-                    "default": "1000",
-                    "label": "PGID",
-                    "name": "PGID"
-                },
-                {
-                    "label": "CONTEXT_PATH",
-                    "name": "CONTEXT_PATH",
-                    "set": "adguard home"
-                }
-            ],
-            "image": "adguard/adguardhome:latest",
-            "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/adguard.png",
-            "name": "adguard",
-            "platform": "linux",
-            "ports": [
-                "53:53/tcp",
-                "53:53/udp",
-                "67:67/udp",
-                "68:68/tcp",
-                "68:68/udp",
-                "80:80/tcp",
-                "443:443/tcp",
-                "853:853/tcp",
-                "3000:3000/tcp"
-            ],
-            "restart_policy": "unless-stopped",
-            "title": "Adguard",
-            "type": 1,
-            "volumes": [
-                {
-                    "bind": "/portainer/Files/AppData/Adguard/Workdir",
-                    "container": "/opt/adguardhome/work"
-                },
-                {
-                    "bind": "/portainer/Files/AppData/Adguard/Conf",
-                    "container": "/opt/adguardhome/conf"
-                }
-            ],
-            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
-        },
-        {
-            "categories": [
                 "Other"
             ],
             "description": "AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it\u2019ll cover ALL your home devices, and you don\u2019t need any client-side software for that. With the rise of Internet-Of-Things and connected devices, it becomes more and more important to be able to control your whole network.",
@@ -156,6 +104,22 @@
                 }
             ],
             "note": "<a href='https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Adblocking"
+            ],
+            "description": "AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it\u2019ll cover ALL your home devices, and you don\u2019t need any client-side software for that. With the rise of Internet-Of-Things and connected devices, it becomes more and more important to be able to control your network.",
+            "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/adguard.png",
+            "name": "adguardhome",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/adguardhome.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Adguard Home",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "type": 1,
@@ -2394,7 +2358,7 @@
                     "name": "PORT"
                 }
             ],
-            "logo": "https://goauthentik.io/img/icon_left_brand.svg",
+            "logo": "https://d33wubrfki0l68.cloudfront.net/228cc7243c167d0ad9f9adf2129d69b787129ccb/73d36/img/icon_left_brand.svg",
             "name": "Authentik",
             "platform": "linux",
             "repository": {
@@ -25232,10 +25196,10 @@
         },
         {
             "categories": [
-                "Other"
+                "Blogging"
             ],
             "description": "Create your own platform on the web. Ghost is a powerful app for new-media creators to publish, share, and grow a business around their content. It comes with modern tools to build a website, publish content, send newsletters & offer paid subscriptions to members.",
-            "logo": "https://ghost.org/images/docs/logos/ghost-logo-orb.png",
+            "logo": "https://ghost.org/images/logos/logo-black-1.webp",
             "name": "ghost",
             "platform": "linux",
             "repository": {
@@ -51716,22 +51680,15 @@
                 "IoT"
             ],
             "description": "Node-RED provides a browser-based flow editor that makes it easy to wire together flows using the wide range of nodes in the palette.",
-            "image": "nodered/node-red",
             "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/node-red-icon.svg",
             "name": "nodered",
             "platform": "linux",
-            "ports": [
-                "1880:1880/tcp"
-            ],
-            "restart_policy": "always",
+            "repository": {
+                "stackfile": "Template/Stack/nodered.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
             "title": "Nodered",
-            "type": 1,
-            "volumes": [
-                {
-                    "bind": "/portainer/Files/AppData/Config/Nodered",
-                    "container": "/data"
-                }
-            ],
+            "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
@@ -52809,34 +52766,15 @@
                 "Tools"
             ],
             "description": "Ombi allows you to host your own Plex Request and user management system.",
-            "env": [
-                {
-                    "default": "1000",
-                    "label": "PUID",
-                    "name": "PUID"
-                },
-                {
-                    "default": "100",
-                    "label": "PGID",
-                    "name": "PGID"
-                }
-            ],
-            "image": "linuxserver/ombi:latest",
             "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/ombi.png",
             "name": "ombi",
             "platform": "linux",
-            "ports": [
-                "3579:3579/tcp"
-            ],
-            "restart_policy": "unless-stopped",
+            "repository": {
+                "stackfile": "Template/Stack/ombi.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
             "title": "Ombi",
-            "type": 1,
-            "volumes": [
-                {
-                    "bind": "/portainer/Files/AppData/Config/Ombi",
-                    "container": "/config"
-                }
-            ],
+            "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
@@ -54555,37 +54493,19 @@
         },
         {
             "categories": [
-                "Tools"
+                "Tools",
+                "Dashboard"
             ],
             "description": "Organizr allows you to setup Tabs that will be loaded all in one webpage. You can then work on your server with ease.",
-            "env": [
-                {
-                    "default": "1000",
-                    "label": "PUID",
-                    "name": "PUID"
-                },
-                {
-                    "default": "100",
-                    "label": "PGID",
-                    "name": "PGID"
-                }
-            ],
-            "image": "organizr/organizr:latest",
             "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/organizr-icon.png",
             "name": "organizr-v2",
             "platform": "linux",
-            "ports": [
-                "80/tcp"
-            ],
-            "restart_policy": "unless-stopped",
+            "repository": {
+                "stackfile": "Template/Stack/organizr.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
             "title": "Organizr",
-            "type": 1,
-            "volumes": [
-                {
-                    "bind": "/portainer/Files/AppData/Config/Organizr",
-                    "container": "/config"
-                }
-            ],
+            "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
@@ -55315,34 +55235,15 @@
                 "Tools"
             ],
             "description": "Overseerr is a free and open source software application for managing requests for your media library.",
-            "env": [
-                {
-                    "default": "1000",
-                    "label": "PUID",
-                    "name": "PUID"
-                },
-                {
-                    "default": "100",
-                    "label": "PGID",
-                    "name": "PGID"
-                }
-            ],
-            "image": "hotio/overseerr:release",
             "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/overseerr-icon.png",
             "name": "Overseerr",
             "platform": "linux",
-            "ports": [
-                "5055:5055/tcp"
-            ],
-            "restart_policy": "unless-stopped",
+            "repository": {
+                "stackfile": "Template/Stack/overseerr.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
             "title": "Overseerr",
-            "type": 1,
-            "volumes": [
-                {
-                    "bind": "/portainer/Files/AppData/Config/Overseerr",
-                    "container": "/config"
-                }
-            ],
+            "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
@@ -62123,7 +62024,7 @@
             "categories": [
                 "Social"
             ],
-            "description": "https://github.com/pablouser1/ProxiTok",
+            "description": "Use Tiktok with an alternative frontend, inspired by Nitter.",
             "logo": "",
             "name": "proxitok",
             "platform": "linux",
@@ -71760,24 +71661,17 @@
             "categories": [
                 "Tools"
             ],
-            "description": "Self-hosted snippet manager.",
-            "image": "snowmean/snibox-sqlite:latest",
+            "description": "Self-hosted snippet manager.Label-oriented interface with search. Supports various programming languages, markdown, plain text.",
             "logo": "https://user-images.githubusercontent.com/312873/35063615-acf68302-fbd8-11e7-91c5-0b3b6f5966c4.png",
             "name": "Snibox",
-            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>\nLabel-oriented interface with search. Supports various programming languages, markdown, plain text.",
             "platform": "linux",
-            "ports": [
-                "3010:3000/tcp"
-            ],
-            "restart_policy": "unless-stopped",
+            "repository": {
+                "stackfile": "Template/Stack/snibox.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
             "title": "Snibox",
-            "type": 1,
-            "volumes": [
-                {
-                    "bind": "/portainer/Files/AppData/Config/Snibox",
-                    "container": "/app/db/database"
-                }
-            ]
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "categories": [
@@ -74840,6 +74734,23 @@
                 "url": "https://github.com/xneo1/portainer_templates"
             },
             "title": "Tabby",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Network",
+                "VPN"
+            ],
+            "description": "Tailscale lets you easily manage access to private resources, quickly SSH into devices on your network, and work securely from anywhere in the world.",
+            "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/tailscale.jpg",
+            "name": "tailscale",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/tailscale.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Tailscale",
             "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
