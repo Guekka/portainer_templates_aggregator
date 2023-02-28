@@ -54889,6 +54889,72 @@
             "note": "<a href='https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
+            "type": 1,
+            "name": "overseerr",
+            "title": "Overseerr",
+            "description": "Overseerr is a request management and media discovery tool built to work with your existing Plex ecosystem.",
+            "logo": "https://mediadepot.github.io/templates/img/overseerr.png",
+            "image": "lscr.io/linuxserver/overseerr:latest",
+            "categories": [
+                "Downloaders:",
+                "Network:Other",
+                "MediaApp:Video",
+                "Tools:"
+            ],
+            "ports": [
+                "5055/tcp"
+            ],
+            "volumes": [
+                {
+                    "container": "/config",
+                    "bind": "/opt/mediadepot/apps/overseerr"
+                },
+                {
+                    "container": "/etc/localtime",
+                    "bind": "/etc/localtime",
+                    "readonly": true
+                }
+            ],
+            "env": [
+                {
+                    "name": "PGID",
+                    "label": "PGID",
+                    "default": "15000",
+                    "preset": true
+                },
+                {
+                    "name": "PUID",
+                    "label": "PUID",
+                    "default": "15000",
+                    "preset": true
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "America/Los_Angeles"
+                }
+            ],
+            "labels": [
+                {
+                    "name": "traefik.enable",
+                    "value": "true"
+                },
+                {
+                    "name": "traefik.http.services.overseerr.loadbalancer.server.port",
+                    "value": "5055"
+                },
+                {
+                    "name": "traefik.http.routers.overseerr.entrypoints",
+                    "value": "websecure"
+                },
+                {
+                    "name": "traefik.http.routers.overseerr.tls.certresolver",
+                    "value": "mydnschallenge"
+                }
+            ],
+            "note": "<a href='https://raw.githubusercontent.com/mediadepot/templates/master/portainer.json' target='_blank'>Source</a>"
+        },
+        {
             "categories": [
                 "Cloud",
                 "Productivity",
@@ -76531,31 +76597,31 @@
                 {
                     "name": "USER",
                     "label": "USER",
-                    "default": "username",
+                    "default": "",
                     "description": "Specify an optional username for the interface"
                 },
                 {
                     "name": "PASS",
                     "label": "PASS",
-                    "default": "password",
+                    "default": "",
                     "description": "Specify an optional password for the interface"
                 },
                 {
                     "name": "WHITELIST",
                     "label": "WHITELIST",
-                    "default": "iplist",
+                    "default": "",
                     "description": "Specify an optional list of comma separated ip whitelist. Fills rpc-whitelist setting."
                 },
                 {
                     "name": "PEERPORT",
                     "label": "PEERPORT",
-                    "default": "peerport",
+                    "default": "",
                     "description": "Specify an optional port for torrent TCP/UDP connections. Fills peer-port setting."
                 },
                 {
                     "name": "HOST_WHITELIST",
                     "label": "HOST_WHITELIST",
-                    "default": "dnsname list",
+                    "default": "",
                     "description": "Specify an optional list of comma separated dns name whitelist. Fills rpc-host-whitelist setting."
                 }
             ],
