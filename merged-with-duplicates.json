@@ -39869,6 +39869,22 @@
             ]
         },
         {
+            "categories": [
+                "Social"
+            ],
+            "description": "Mastodon is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones..",
+            "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mastodon-banner.png",
+            "name": "mastodon",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/mastodon.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Mastodon",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 1,
             "title": "Mastodon",
             "name": "Mastodon",
