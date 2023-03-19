@@ -1617,6 +1617,47 @@
         },
         {
             "type": 1,
+            "title": "Chromium",
+            "name": "Chromium",
+            "note": "<a href='https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json' target='_blank'>Source</a>\nPortainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/chromium/config</p>",
+            "description": "[Chromium](https://www.chromium.org/chromium-projects/) is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.",
+            "platform": "linux",
+            "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/chromium-logo.png",
+            "image": "linuxserver/chromium:latest",
+            "env": [
+                {
+                    "name": "PUID",
+                    "label": "PUID",
+                    "default": "1024",
+                    "description": "for UserID"
+                },
+                {
+                    "name": "PGID",
+                    "label": "PGID",
+                    "default": "100",
+                    "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Europe/Amsterdam",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                }
+            ],
+            "ports": [
+                "3000:3000/tcp",
+                "3001:3001/tcp"
+            ],
+            "volumes": [
+                {
+                    "container": "/config",
+                    "bind": "/volume1/docker/chromium/config"
+                }
+            ],
+            "restart_policy": "unless-stopped"
+        },
+        {
+            "type": 1,
             "title": "Ci",
             "name": "Ci",
             "note": "<a href='https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json' target='_blank'>Source</a>\nPortainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/ci/config</p>",
@@ -17740,6 +17781,57 @@
                 }
             ],
             "restart_policy": "unless-stopped"
+        },
+        {
+            "type": 1,
+            "name": "wizarr",
+            "title": "Wizarr",
+            "description": " Wizarr is an advanced user invitation and management system for Jellyfin, Plex, Emby etc. ",
+            "logo": "https://mediadepot.github.io/templates/img/wizarr-logo.png",
+            "image": "ghcr.io/wizarrrr/wizarr",
+            "categories": [
+                "Tools:"
+            ],
+            "ports": [
+                "5690/tcp"
+            ],
+            "volumes": [
+                {
+                    "container": "/data/database",
+                    "bind": "/opt/mediadepot/apps/wizarr"
+                },
+                {
+                    "container": "/etc/localtime",
+                    "bind": "/etc/localtime",
+                    "readonly": true
+                }
+            ],
+            "env": [
+                {
+                    "name": "APP_URL",
+                    "label": "APP_URL",
+                    "default": "https://wizarr.domain.com"
+                }
+            ],
+            "labels": [
+                {
+                    "name": "traefik.enable",
+                    "value": "true"
+                },
+                {
+                    "name": "traefik.http.services.wizarr.loadbalancer.server.port",
+                    "value": "5690"
+                },
+                {
+                    "name": "traefik.http.routers.wizarr.entrypoints",
+                    "value": "websecure"
+                },
+                {
+                    "name": "traefik.http.routers.wizarr.tls.certresolver",
+                    "value": "mydnschallenge"
+                }
+            ],
+            "note": "<a href='https://raw.githubusercontent.com/mediadepot/templates/master/portainer.json' target='_blank'>Source</a>"
         },
         {
             "type": 3,
