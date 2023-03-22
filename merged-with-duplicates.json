@@ -51665,6 +51665,7 @@
             "type": 1,
             "title": "OPC Router",
             "description": "No-code middleware for industrial applications. The OPC Router connects PLCs, PCS, SCADA, MES, SQL databases and servers, label printers, e-mail servers and erp-systems via OPC UA, MQTT, REST, CSV and many others without any programming effort",
+            "note": "<a href='https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json' target='_blank'>Source</a>\nMore information about the <a href=\"https://www.opc-router.com/terms-of-use-and-eula/?utm_source=DockerHub_runtime&utm_medium=click&utm_campaign=TermsOfUseAndEula\" target=\"_blank\">EULA</a>.",
             "categories": [
                 "edge"
             ],
@@ -51677,11 +51678,11 @@
             "env": [
                 {
                     "name": "OR_DATABASE_USERNAME",
-                    "label": "Database user"
+                    "label": "Remote management user"
                 },
                 {
                     "name": "MONGO_INITDB_ROOT_USERNAME",
-                    "label": "Database password"
+                    "label": "Remote management password"
                 },
                 {
                     "name": "OR_DATABASE_PASSWORD",
@@ -51710,8 +51711,7 @@
                 {
                     "container": "/root/.dotnet/corefx/cryptography/x509stores/"
                 }
-            ],
-            "note": "<a href='https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json' target='_blank'>Source</a>"
+            ]
         },
         {
             "categories": [
