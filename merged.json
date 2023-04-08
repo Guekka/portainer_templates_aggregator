@@ -917,16 +917,11 @@
                     "label": "SUBFOLDER",
                     "default": "/",
                     "description": "Specify a subfolder to use with reverse proxies, IE `/subfolder/`"
-                },
-                {
-                    "name": "KEYBOARD",
-                    "label": "KEYBOARD",
-                    "default": "en-us-qwerty",
-                    "description": "See the keyboard layouts section for more information and options."
                 }
             ],
             "ports": [
-                "3000:3000/tcp"
+                "3000:3000/tcp",
+                "3001:3001/tcp"
             ],
             "volumes": [
                 {
@@ -975,7 +970,8 @@
                 }
             ],
             "ports": [
-                "8080:8080/tcp"
+                "8080:8080/tcp",
+                "8181:8181/tcp"
             ],
             "volumes": [
                 {
@@ -1299,7 +1295,7 @@
             "title": "Calibre",
             "name": "Calibre",
             "note": "<a href='https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json' target='_blank'>Source</a>\nPortainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/calibre/config</p>",
-            "description": "[Calibre](https://calibre-ebook.com/) is a powerful and easy to use e-book manager. Users say it\u2019s outstanding and a must-have. It\u2019ll allow you to do nearly everything and it takes things a step beyond normal e-book software. It\u2019s also completely free and open source and great for both casual users and computer experts.",
+            "description": "[Calibre](https://calibre-ebook.com/) is a powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts.",
             "categories": [
                 "Media"
             ],
@@ -1340,6 +1336,7 @@
             ],
             "ports": [
                 "8080:8080/tcp",
+                "8181:8181/tcp",
                 "8081:8081/tcp"
             ],
             "volumes": [
@@ -1692,6 +1689,12 @@
                     "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "CHROME_CLI",
+                    "label": "CHROME_CLI",
+                    "default": "https://www.linuxserver.io/",
+                    "description": "Specify one or multiple Chromium CLI flags, this string will be passed to the application in full."
                 }
             ],
             "ports": [
@@ -2250,7 +2253,8 @@
                 }
             ],
             "ports": [
-                "3000:3000/tcp"
+                "3000:3000/tcp",
+                "3001:3001/tcp"
             ],
             "volumes": [
                 {
@@ -2657,16 +2661,11 @@
                     "label": "SUBFOLDER",
                     "default": "/",
                     "description": "Specify a subfolder to use with reverse proxies, IE `/subfolder/`"
-                },
-                {
-                    "name": "KEYBOARD",
-                    "label": "KEYBOARD",
-                    "default": "en-us-qwerty",
-                    "description": "See the keyboard layouts section for more information and options."
                 }
             ],
             "ports": [
-                "3000:3000/tcp"
+                "3000:3000/tcp",
+                "3001:3001/tcp"
             ],
             "volumes": [
                 {
@@ -3199,7 +3198,8 @@
                 }
             ],
             "ports": [
-                "3000:3000/tcp"
+                "3000:3000/tcp",
+                "3001:3001/tcp"
             ],
             "volumes": [
                 {
@@ -4538,7 +4538,8 @@
                 }
             ],
             "ports": [
-                "3000:3000/tcp"
+                "3000:3000/tcp",
+                "3001:3001/tcp"
             ],
             "volumes": [
                 {
@@ -4872,6 +4873,22 @@
                 }
             ],
             "note": "<a href='https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Downloaders"
+            ],
+            "description": "A docker image with qBittorrent and the Flood UI, also optional WireGuard VPN support.",
+            "logo": "https://hotio.dev/img/image-logos/flood.svg",
+            "name": "flood",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/flood.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Flood",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "type": 1,
@@ -7474,16 +7491,11 @@
                     "label": "SUBFOLDER",
                     "default": "/",
                     "description": "Specify a subfolder to use with reverse proxies, IE `/subfolder/`"
-                },
-                {
-                    "name": "KEYBOARD",
-                    "label": "KEYBOARD",
-                    "default": "en-us-qwerty",
-                    "description": "See the keyboard layouts section for more information and options."
                 }
             ],
             "ports": [
-                "3000:3000/tcp"
+                "3000:3000/tcp",
+                "3001:3001/tcp"
             ],
             "volumes": [
                 {
@@ -8025,6 +8037,7 @@
                 }
             ],
             "ports": [
+                "3000:3000/tcp",
                 "3000:3000/tcp"
             ],
             "volumes": [
@@ -9960,7 +9973,8 @@
                 }
             ],
             "ports": [
-                "3000:3000/tcp"
+                "3000:3000/tcp",
+                "3001:3001/tcp"
             ],
             "volumes": [
                 {
@@ -12225,7 +12239,8 @@
                 }
             ],
             "ports": [
-                "3000:3000/tcp"
+                "3000:3000/tcp",
+                "3001:3001/tcp"
             ],
             "volumes": [
                 {
@@ -13370,7 +13385,8 @@
                 }
             ],
             "ports": [
-                "3000:3000/tcp"
+                "3000:3000/tcp",
+                "3001:3001/tcp"
             ],
             "volumes": [
                 {
@@ -14002,7 +14018,8 @@
                 }
             ],
             "ports": [
-                "3000:3000/tcp"
+                "3000:3000/tcp",
+                "3001:3001/tcp"
             ],
             "volumes": [
                 {
@@ -15400,7 +15417,8 @@
                 }
             ],
             "ports": [
-                "3000:3000/tcp"
+                "3000:3000/tcp",
+                "3001:3001/tcp"
             ],
             "volumes": [
                 {
@@ -17992,7 +18010,8 @@
                 }
             ],
             "ports": [
-                "3000:3000/tcp"
+                "3000:3000/tcp",
+                "3001:3001/tcp"
             ],
             "volumes": [
                 {
