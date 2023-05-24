@@ -170,63 +170,19 @@
         },
         {
             "categories": [
-                "Music"
+                "Audio",
+                "Multimedia"
             ],
-            "description": "Airsonic is a free, web-based media streamer, providing ubiqutious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.",
-            "env": [
-                {
-                    "default": "1000",
-                    "label": "PUID",
-                    "name": "PUID"
-                },
-                {
-                    "default": "100",
-                    "label": "PGID",
-                    "name": "PGID"
-                },
-                {
-                    "label": "CONTEXT_PATH",
-                    "name": "CONTEXT_PATH",
-                    "set": "airsonic"
-                },
-                {
-                    "label": "JAVA_OPTS",
-                    "name": "JAVA_OPTS",
-                    "set": "-Xms256m -Xmx512m"
-                }
-            ],
-            "image": "linuxserver/airsonic:latest",
+            "description": "Airsonic is a free, web-based media streamer, providing ubiquitious access to your music. Use it to share your music with friends, or to listen to your own music while at work.",
             "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/airsonic-logo.png",
             "name": "airsonic",
             "platform": "linux",
-            "ports": [
-                "4040:4040/tcp"
-            ],
-            "restart_policy": "unless-stopped",
+            "repository": {
+                "stackfile": "Template/Stack/airsonic.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
             "title": "Airsonic",
-            "type": 1,
-            "volumes": [
-                {
-                    "bind": "/portainer/Music",
-                    "container": "/music"
-                },
-                {
-                    "bind": "/portainer/Files/AppData/Airsonic/Playlists",
-                    "container": "/playlists"
-                },
-                {
-                    "bind": "/portainer/Podcasts",
-                    "container": "/podcasts"
-                },
-                {
-                    "bind": "/portainer/Files/AppData/Airsonic/Media",
-                    "container": "/media"
-                },
-                {
-                    "bind": "/portainer/Files/AppData/Config/Airsonic/",
-                    "container": "/config"
-                }
-            ],
+            "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
@@ -5116,6 +5072,23 @@
                 "url": "https://github.com/xneo1/portainer_templates"
             },
             "title": "Frigate NVR",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Audio",
+                "Multimedia"
+            ],
+            "description": "A social platform to enjoy and share music.Funkwhale is a community-driven project that lets you listen and share music and audio within a decentralized, open network.",
+            "logo": "https://funkwhale.audio/img/with-text-500.4aff7861.png",
+            "name": "funkwhale",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/funkwhale.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Funkwhale",
             "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
@@ -18076,7 +18049,7 @@
             "type": 1,
             "title": "Wireguard",
             "name": "Wireguard",
-            "note": "<a href='https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json' target='_blank'>Source</a>\nPortainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/wireguard/config</p>",
+            "note": "<a href='https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json' target='_blank'>Source</a>\nPortainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/wireguard/config<br></p>",
             "description": "[WireGuard\u00ae](https://www.wireguard.com/) is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. WireGuard is designed as a general purpose VPN for running on embedded interfaces and super computers alike, fit for many different circumstances. Initially released for the Linux kernel, it is now cross-platform (Windows, macOS, BSD, iOS, Android) and widely deployable. It is currently under heavy development, but already it might be regarded as the most secure, easiest to use, and simplest VPN solution in the industry.",
             "platform": "linux",
             "logo": "https://www.wireguard.com/img/wireguard.svg",
@@ -18156,6 +18129,10 @@
                 {
                     "container": "/config",
                     "bind": "/volume1/docker/wireguard/config"
+                },
+                {
+                    "container": "/lib/modules",
+                    "bind": "/lib/modules"
                 }
             ],
             "restart_policy": "unless-stopped"
