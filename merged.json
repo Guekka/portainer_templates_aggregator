@@ -15413,10 +15413,17 @@
         },
         {
             "type": 4,
+            "title": "Softing EdgeConnector 840D",
+            "description": "Access Siemens SINUMERIK 840D sl/pl controllers and provide data via OPC UA and MQTT",
+            "stackfile": "https://raw.githubusercontent.com/portainer/templates/master/edge/softing-edgeconnector-840D/docker-compose.yml",
+            "note": "<a href='https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json' target='_blank'>Source</a>"
+        },
+        {
+            "type": 4,
             "title": "Softing EdgeConnector modbus",
             "description": "Connect Modbus TCP Sensors/PLCs and provide the data via OPC UA and MQTT",
             "note": "<a href='https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json' target='_blank'>Source</a>\nConnect Modbus TCP Sensors/PLCs and provide the data via OPC UA and MQTT",
-            "stackfile": "https://raw.githubusercontent.com/portainer/templates/master/stacks/softing-edgeconnector-modbus/docker-compose.yml"
+            "stackfile": "https://raw.githubusercontent.com/portainer/templates/master/edge/softing-edgeconnector-modbus/docker-compose.yml"
         },
         {
             "type": 1,
@@ -15928,6 +15935,32 @@
                     "name": "API_URL",
                     "label": "Link to your API",
                     "description": "openapi.yaml"
+                }
+            ]
+        },
+        {
+            "type": 2,
+            "title": "Swarm monitoring",
+            "description": "Monitor your cluster performances with Prometheus & Grafana",
+            "note": "<a href='https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json' target='_blank'>Source</a>\nRequires Docker version 19.03.0+. <b>Make sure to add the <code>monitoring == true</code> one of your Swarm manager node before deploying this stack.</b>",
+            "categories": [
+                "Monitoring"
+            ],
+            "platform": "linux",
+            "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/portainer.png",
+            "repository": {
+                "url": "https://github.com/portainer/templates",
+                "stackfile": "swarm/monitoring/docker-compose.yml"
+            },
+            "env": [
+                {
+                    "name": "GRAFANA_USER",
+                    "label": "Grafana admin user",
+                    "default": "admin"
+                },
+                {
+                    "name": "GRAFANA_PASSWORD",
+                    "label": "Grafana admin password"
                 }
             ]
         },
