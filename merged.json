@@ -4061,6 +4061,12 @@
                     "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "VERBOSITY",
+                    "label": "VERBOSITY",
+                    "default": "-vv",
+                    "description": "Set the container log verbosity. Valid options are -v, -vv, -vvv, -vvvv, or leaving the value blank or not setting the variable."
                 }
             ],
             "ports": [
@@ -14970,23 +14976,16 @@
             "categories": [
                 "Tools"
             ],
-            "description": "Shiori is a simple bookmarks manager written in Go language. Intended as a simple clone of Pocket. You can use it as command line application or as web application.",
-            "image": "radhifadlillah/shiori:latest",
-            "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/shiori-icon.png",
+            "description": "Shiori is a simple bookmarks manager written in the Go language. Intended as a simple clone of Pocket.You can use it as command line application or as web application.",
+            "logo": "https://raw.githubusercontent.com/go-shiori/shiori/master/docs/readme/cover.png",
             "name": "shiori",
             "platform": "linux",
-            "ports": [
-                "8080/tcp"
-            ],
-            "restart_policy": "unless-stopped",
+            "repository": {
+                "stackfile": "Template/Stack/shiori.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
             "title": "Shiori",
-            "type": 1,
-            "volumes": [
-                {
-                    "bind": "/portainer/Files/AppData/Config/Shiori",
-                    "container": "/srv/shiori"
-                }
-            ],
+            "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
