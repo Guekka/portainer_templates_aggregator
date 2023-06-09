@@ -1341,6 +1341,22 @@
             ]
         },
         {
+            "categories": [
+                "Devops"
+            ],
+            "description": "Modern UI for Ansible",
+            "logo": "https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,w_60,h_60/https://dashboard.snapcraft.io/site_media/appmedia/2020/11/Screenshot_2020-11-21_at_02.05.22.png",
+            "name": "ansible-semaphore",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/ansible-semaphore.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Ansible-semaphore",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 3,
             "title": "Apprise API",
             "name": "Apprise API",
@@ -38411,6 +38427,12 @@
                     "label": "TZ",
                     "default": "Europe/Amsterdam",
                     "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "DB_CONNECTION",
+                    "label": "DB_CONNECTION",
+                    "default": "mysql",
+                    "description": "for specifying the database type"
                 },
                 {
                     "name": "DB_HOST",
