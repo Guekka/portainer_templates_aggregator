@@ -8286,6 +8286,22 @@
             "categories": [
                 "Social"
             ],
+            "description": "Self-hosted open-source Linktree alternative. LinkStack is a highly customizable link sharing platform with an intuitive, easy to use user interface.",
+            "logo": "https://linkstack.org/wp-content/uploads/2023/04/logo-animated.svg",
+            "name": "linkstack",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/linkstack.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Linkstack",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Social"
+            ],
             "description": "LittleLink is an open source DIY self-hosted alternative to services like Linktree and many.link. ",
             "logo": "https://littlelink.io/images/avatar@2x.png",
             "name": "littlelink-server",
