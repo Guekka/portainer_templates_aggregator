@@ -12682,6 +12682,22 @@
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
+            "categories": [
+                "Tools"
+            ],
+            "description": "Grocy is an ERP system for your kitchen! Cut down on food waste, and manage your chores with this brilliant utility.",
+            "logo": "https://grocy.info/img/grocy_logo.svg",
+            "name": "grocy",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/grocy.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Grocy",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 1,
             "title": "Grocy",
             "name": "Grocy",
