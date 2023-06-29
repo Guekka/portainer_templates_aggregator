@@ -7163,6 +7163,11 @@
                     "container": "/downloads"
                 }
             ],
+            "ports": [
+                "8112:8112/tcp",
+                "6881:6881/tcp",
+                "6881:6881/udp"
+            ],
             "note": "<a href='https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
@@ -26734,7 +26739,7 @@
                     "name": "PGID"
                 }
             ],
-            "image": "hotio/overseerr:latest",
+            "image": "hotio/overseerr:release",
             "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/overseerr-icon.png",
             "name": "Overseerr",
             "platform": "linux",
@@ -27032,6 +27037,59 @@
                     "label": "Timezone ",
                     "description": "Example: Europe/Paris",
                     "default": "Europe/Paris"
+                }
+            ]
+        },
+        {
+            "categories": [
+                "Other",
+                "Tools"
+            ],
+            "description": "Passky is a simple, modern, lightweight, open-source and secure password manager.",
+            "image": "rabbitcompany/passky-client:latest",
+            "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/passky-icon.png",
+            "name": "passky-client",
+            "platform": "linux",
+            "ports": [
+                "8081:80/tcp"
+            ],
+            "restart_policy": "unless-stopped",
+            "title": "Passky Client",
+            "type": 1,
+            "note": "<a href='https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Other",
+                "Tools"
+            ],
+            "description": "Passky is a simple, modern, lightweight, open-source and secure password manager.",
+            "env": [
+                {
+                    "default": "admin",
+                    "label": "ADMIN_USERNAME",
+                    "name": "ADMIN_USERNAME"
+                },
+                {
+                    "label": "ADMIN_PASSWORD",
+                    "name": "ADMIN_PASSWORD"
+                }
+            ],
+            "image": "rabbitcompany/passky-server:latest",
+            "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/passky-icon.png",
+            "name": "passky-server",
+            "note": "<a href='https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json' target='_blank'>Source</a>\nDo not forget to perform regular backups, especially before each update.",
+            "platform": "linux",
+            "ports": [
+                "8080:80/tcp"
+            ],
+            "restart_policy": "unless-stopped",
+            "title": "Passky Server",
+            "type": 1,
+            "volumes": [
+                {
+                    "bind": "/portainer/Files/AppData/Passky-Server",
+                    "container": "/var/www/html/databases"
                 }
             ]
         },
@@ -39018,7 +39076,7 @@
             "volumes": [
                 {
                     "bind": "/portainer/Files/AppData/Config/Vaultwarden",
-                    "container": "/config"
+                    "container": "/data"
                 }
             ]
         },
