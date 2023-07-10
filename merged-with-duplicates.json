@@ -16941,6 +16941,22 @@
             ]
         },
         {
+            "categories": [
+                "offline"
+            ],
+            "description": "Internet. Offline.Store any website on your mobile phone or computer, easily.",
+            "logo": "https://www.kiwix.org/wp-content/uploads/kiwix-logo-995x200-1.png",
+            "name": "kiwix",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/kiwix.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Kiwix",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 3,
             "name": "klaxon",
             "title": "Klaxon",
@@ -35827,22 +35843,15 @@
                 "Tools"
             ],
             "description": "The recipe manager that allows you to manage your ever growing collection of digital recipes.",
-            "image": "vabene1111/recipes:latest",
             "logo": "https://docs.tandoor.dev/logo_color.svg",
-            "name": "Tandoor",
+            "name": "tandoor",
             "platform": "linux",
-            "ports": [
-                "3280:8080/tcp"
-            ],
-            "restart_policy": "unless-stopped",
+            "repository": {
+                "stackfile": "Template/Stack/tandoor.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
             "title": "Tandoor",
-            "type": 1,
-            "volumes": [
-                {
-                    "bind": "/portainer/Files/AppData/Config/Tandoor",
-                    "container": "/config"
-                }
-            ],
+            "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
