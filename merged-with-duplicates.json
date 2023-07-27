@@ -11394,6 +11394,18 @@
                     "description": "Set the FlexGet logging level."
                 },
                 {
+                    "name": "FG_LOG_FILE",
+                    "label": "FG_LOG_FILE",
+                    "default": "/config/flexget.log",
+                    "description": "Set the FlexGet log file location."
+                },
+                {
+                    "name": "FG_CONFIG_FILE",
+                    "label": "FG_CONFIG_FILE",
+                    "default": "/config/.flexget/config.yml",
+                    "description": "Set the FlexGet config file location."
+                },
+                {
                     "name": "FG_WEBUI_PASSWORD",
                     "label": "FG_WEBUI_PASSWORD",
                     "default": "info",
@@ -28838,6 +28850,22 @@
                 }
             ],
             "restart_policy": "unless-stopped"
+        },
+        {
+            "type": 3,
+            "name": "plextraktsync",
+            "title": "PlexTraktSync",
+            "description": "A python script that syncs the movies, shows and ratings between trakt and Plex",
+            "logo": "https://mediadepot.github.io/templates/img/plex-icon.png",
+            "categories": [
+                "Documents:",
+                "Tools:"
+            ],
+            "repository": {
+                "url": "https://github.com/mediadepot/templates",
+                "stackfile": "stacks/plextraktsync/docker-compose.yml"
+            },
+            "note": "<a href='https://raw.githubusercontent.com/mediadepot/templates/master/portainer.json' target='_blank'>Source</a>"
         },
         {
             "type": 1,
