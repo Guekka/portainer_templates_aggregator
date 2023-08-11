@@ -6927,6 +6927,23 @@
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
+            "categories": [
+                "ebooks",
+                "comics"
+            ],
+            "description": "Kapowarr is a software to build and manage a comic book library, fitting in the *arr suite of software.",
+            "logo": "",
+            "name": "kapowarr",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/kapowarr.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Kapowarr",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 1,
             "title": "Kasm",
             "name": "Kasm",
@@ -7147,6 +7164,53 @@
                     "label": "Password for Keycloak user"
                 }
             ]
+        },
+        {
+            "type": 1,
+            "title": "Kimai",
+            "name": "Kimai",
+            "note": "<a href='https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json' target='_blank'>Source</a>\nPortainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/kimai/config</p>",
+            "description": "[Kimai](https://kimai.org/) is a professional grade time-tracking application, free and open-source. It handles use-cases of freelancers as well as companies with dozens or hundreds of users. Kimai was build to track your project times and ships with many advanced features, including but not limited to: JSON API, invoicing, data exports, multi-timer and punch-in punch-out mode, tagging, multi-user - multi-timezones - multi-language ([over 30 translations existing](https://hosted.weblate.org/projects/kimai/)!), authentication via SAML/LDAP/Database, two-factor authentication (2FA) with TOTP, customizable role and team permissions, responsive design, user/customer/project specific rates, advanced search & filtering, money and time budgets, advanced reporting, support for [plugins](https://www.kimai.org/store/) and so much more.",
+            "platform": "linux",
+            "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kimai-logo.png",
+            "image": "linuxserver/kimai:latest",
+            "env": [
+                {
+                    "name": "PUID",
+                    "label": "PUID",
+                    "default": "1024",
+                    "description": "for UserID"
+                },
+                {
+                    "name": "PGID",
+                    "label": "PGID",
+                    "default": "100",
+                    "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Europe/Amsterdam",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "DATABASE_URL",
+                    "label": "DATABASE_URL",
+                    "default": "mysql://your_db_user:your_db_pass@your_db_host:3306/your_db_name",
+                    "description": "Configure your database connection"
+                }
+            ],
+            "ports": [
+                "80:80/tcp",
+                "443:443/tcp"
+            ],
+            "volumes": [
+                {
+                    "container": "/config",
+                    "bind": "/volume1/docker/kimai/config"
+                }
+            ],
+            "restart_policy": "unless-stopped"
         },
         {
             "categories": [
