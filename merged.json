@@ -11359,6 +11359,23 @@
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
+            "categories": [
+                "Project management",
+                "Productivity"
+            ],
+            "description": "Project management tool from the future. An open-source software development tool to manage issues, sprints, and product roadmaps with peace of mind.",
+            "logo": "https://plane-marketing.s3.ap-south-1.amazonaws.com/plane-assets/logo/text-logo.svg",
+            "name": "plane",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/plane.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Plane",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 1,
             "title": "Plesk",
             "description": "WebOps platform and hosting control panel",
