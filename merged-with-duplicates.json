@@ -11486,6 +11486,23 @@
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
+            "categories": [
+                "AI",
+                "LLM"
+            ],
+            "description": "Open source UI visual tool to build your customized LLM flow using LangchainJS, written in Node Typescript/Javascript",
+            "logo": "https://flowiseai.com/_next/static/images/flowise_logo_dark-6c1a356f4868d3deb7864323ff93a0fa.png",
+            "name": "flowiseai",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/flowiseai.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Flowiseai",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 1,
             "title": "Foldingathome",
             "name": "Foldingathome",
@@ -13477,6 +13494,22 @@
                 "url": "https://github.com/xneo1/portainer_templates"
             },
             "title": "Hasty-Paste",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Tracking"
+            ],
+            "description": "Hauk is a fully open source, self-hosted location sharing service. Install the backend code on a PHP-compatible web server, install the companion app on your phone, and you're good to go!",
+            "logo": "https://github.com/bilde2910/Hauk/raw/master/frontend/assets/logo.svg",
+            "name": "hauk",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/hauk.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Hauk",
             "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
@@ -29778,7 +29811,6 @@
                 "Social"
             ],
             "description": "Use Tiktok with an alternative frontend, inspired by Nitter.",
-            "logo": "",
             "name": "proxitok",
             "platform": "linux",
             "repository": {
@@ -33270,6 +33302,22 @@
             ],
             "restart_policy": "always",
             "title": "Servas",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Link sharing"
+            ],
+            "description": "The personal, minimalist, super fast, database-free, bookmarking service.",
+            "logo": "https://github.com/shaarli/Shaarli/raw/master/doc/md/images/doc-logo.png",
+            "name": "shaarli",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/shaarli.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Shaarli",
             "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
