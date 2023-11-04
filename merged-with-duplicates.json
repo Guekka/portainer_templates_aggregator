@@ -44884,6 +44884,22 @@
             "note": "<a href='https://raw.githubusercontent.com/dnburgess/self-hosted-template/master/template.json' target='_blank'>Source</a>"
         },
         {
+            "categories": [
+                "metrics"
+            ],
+            "description": "This is an exporter that exposes information gathered from Proxmox VE node for use by the Prometheus monitoring system.",
+            "logo": "",
+            "name": "pve-exporter",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/pve-exporter.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "pve-exporter",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "category": [
                 "Cloud",
                 "Other"
