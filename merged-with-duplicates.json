@@ -29216,7 +29216,7 @@
             "type": 3,
             "title": "Pro Mosquitto with Management Center",
             "description": "Commercial-grade Mosquitto MQTT broker with Management Center",
-            "note": "<a href='https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json' target='_blank'>Source</a>\nUse <b>admin</b> as the default username to connect to the Management Center.",
+            "note": "<a href='https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json' target='_blank'>Source</a>\nThe Mosquitto broker password must be at least 12 characters.",
             "categories": [
                 "edge"
             ],
@@ -29232,8 +29232,17 @@
                     "label": "License key"
                 },
                 {
-                    "name": "CEDALO_MC_BROKER_PASSWORD",
-                    "label": "Broker and management center password"
+                    "name": "CEDALO_MOSQUITTO_PASSWORD",
+                    "label": "Mosquitto password"
+                },
+                {
+                    "name": "CEDALO_MC_USER",
+                    "label": "Management Center username",
+                    "default": "cedalo"
+                },
+                {
+                    "name": "CEDALO_MC_PASSWORD",
+                    "label": "Management Center password"
                 }
             ]
         },
