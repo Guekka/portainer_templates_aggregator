@@ -3,6 +3,23 @@
     "templates": [
         {
             "categories": [
+                "Automation",
+                "AI"
+            ],
+            "description": "Automate your marketing, sales and operations",
+            "logo": "https://cdn.activepieces.com/brand/full-logo-white.svg",
+            "name": "activepieces",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/activepieces.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Activepieces",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Finance"
             ],
             "description": "Actual is a super fast privacy-focused app for managing your finances. ",
@@ -3166,6 +3183,23 @@
             "title": "Dradis",
             "type": 1,
             "note": "<a href='https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/portainer-2.0/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Productivity",
+                "Drawing"
+            ],
+            "description": "draw.io (formerly Diagramly) is free online diagram software. You can use it as a flowchart maker, network diagram software, to create UML online, as an ER diagram tool, to design database schema, to build BPMN online, as a circuit diagram maker, and more. draw.io can import .vsdx, Gliffy\u2122 and Lucidchart\u2122 files.",
+            "logo": "https://appedreview.com/app/wp-content/uploads/2016/10/Screen-Shot-2016-10-18-at-8.28.57-AM-768x766.png",
+            "name": "drawio",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/drawio.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Draw.io",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "type": 1,
@@ -9702,68 +9736,20 @@
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
-            "type": 1,
-            "title": "Netbootxyz",
-            "name": "Netbootxyz",
-            "note": "<a href='https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json' target='_blank'>Source</a>\nPortainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/netbootxyz/config<br>mkdir -p /volume1/docker/netbootxyz/assets</p>",
-            "description": "[Netbootxyz](https://netboot.xyz) is a way to PXE boot various operating system installers or utilities from one place within the BIOS without the need of having to go retrieve the media to run the tool. iPXE is used to provide a user friendly menu from within the BIOS that lets you easily choose the operating system you want along with any specific types of versions or bootable flags.",
+            "categories": [
+                "Development"
+            ],
+            "description": "netboot.xyz is a convenient place to boot into any type of operating system or utility disk without the need of having to go spend time retrieving the ISO just to run it",
+            "logo": "https://netboot.xyz/img/nbxyz-logo.svg",
+            "name": "netboot.xyz",
             "platform": "linux",
-            "logo": "https://netboot.xyz/images/netboot.xyz.gif",
-            "image": "linuxserver/netbootxyz:latest",
-            "env": [
-                {
-                    "name": "PUID",
-                    "label": "PUID",
-                    "default": "1024",
-                    "description": "for UserID"
-                },
-                {
-                    "name": "PGID",
-                    "label": "PGID",
-                    "default": "100",
-                    "description": "for GroupID"
-                },
-                {
-                    "name": "TZ",
-                    "label": "TZ",
-                    "default": "Europe/Amsterdam",
-                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
-                },
-                {
-                    "name": "MENU_VERSION",
-                    "label": "MENU_VERSION",
-                    "default": "1.9.9",
-                    "description": "Specify a specific version of boot files you want to use from NETBOOT.XYZ (unset pulls latest)"
-                },
-                {
-                    "name": "PORT_RANGE",
-                    "label": "PORT_RANGE",
-                    "default": "30000:30010",
-                    "description": "Specify the port range tftp will use for data transfers [(see Wikipedia)](https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol#Details)"
-                },
-                {
-                    "name": "SUBFOLDER",
-                    "label": "SUBFOLDER",
-                    "default": "/",
-                    "description": "Specify a sobfolder if running this behind a reverse proxy (IE /proxy/)"
-                }
-            ],
-            "ports": [
-                "3000:3000/tcp",
-                "69:69/udp",
-                "8080:80/tcp"
-            ],
-            "volumes": [
-                {
-                    "container": "/config",
-                    "bind": "/volume1/docker/netbootxyz/config"
-                },
-                {
-                    "container": "/assets",
-                    "bind": "/volume1/docker/netbootxyz/assets"
-                }
-            ],
-            "restart_policy": "unless-stopped"
+            "repository": {
+                "stackfile": "Template/Stack/netbootxyz.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Netboot.xyz",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "categories": [
@@ -12624,6 +12610,12 @@
                     "description": "specify the port of your Quassel Core instance"
                 },
                 {
+                    "name": "QUASSEL_HTTPS",
+                    "label": "QUASSEL_HTTPS",
+                    "default": "",
+                    "description": "Set to `true` to have Quassel web serve over https on port 64443 instead of http on port 64080."
+                },
+                {
                     "name": "URL_BASE",
                     "label": "URL_BASE",
                     "default": "/quassel",
@@ -12631,6 +12623,7 @@
                 }
             ],
             "ports": [
+                "64080:64080/tcp",
                 "64443:64443/tcp"
             ],
             "volumes": [

@@ -3,6 +3,23 @@
     "templates": [
         {
             "categories": [
+                "Automation",
+                "AI"
+            ],
+            "description": "Automate your marketing, sales and operations",
+            "logo": "https://cdn.activepieces.com/brand/full-logo-white.svg",
+            "name": "activepieces",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/activepieces.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Activepieces",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Finance"
             ],
             "description": "Actual is a super fast privacy-focused app for managing your finances. ",
@@ -8257,6 +8274,23 @@
             "title": "Dradis",
             "type": 1,
             "note": "<a href='https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/portainer-2.0/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Productivity",
+                "Drawing"
+            ],
+            "description": "draw.io (formerly Diagramly) is free online diagram software. You can use it as a flowchart maker, network diagram software, to create UML online, as an ER diagram tool, to design database schema, to build BPMN online, as a circuit diagram maker, and more. draw.io can import .vsdx, Gliffy\u2122 and Lucidchart\u2122 files.",
+            "logo": "https://appedreview.com/app/wp-content/uploads/2016/10/Screen-Shot-2016-10-18-at-8.28.57-AM-768x766.png",
+            "name": "drawio",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/drawio.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Draw.io",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "type": 1,
@@ -23775,6 +23809,22 @@
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
+            "categories": [
+                "Development"
+            ],
+            "description": "netboot.xyz is a convenient place to boot into any type of operating system or utility disk without the need of having to go spend time retrieving the ISO just to run it",
+            "logo": "https://netboot.xyz/img/nbxyz-logo.svg",
+            "name": "netboot.xyz",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/netbootxyz.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Netboot.xyz",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 1,
             "name": "netbootxyz",
             "title": "Netboot.xyz",
@@ -30816,6 +30866,12 @@
                     "description": "specify the port of your Quassel Core instance"
                 },
                 {
+                    "name": "QUASSEL_HTTPS",
+                    "label": "QUASSEL_HTTPS",
+                    "default": "",
+                    "description": "Set to `true` to have Quassel web serve over https on port 64443 instead of http on port 64080."
+                },
+                {
                     "name": "URL_BASE",
                     "label": "URL_BASE",
                     "default": "/quassel",
@@ -30823,6 +30879,7 @@
                 }
             ],
             "ports": [
+                "64080:64080/tcp",
                 "64443:64443/tcp"
             ],
             "volumes": [
