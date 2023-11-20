@@ -2814,6 +2814,22 @@
         },
         {
             "categories": [
+                "Management"
+            ],
+            "description": "A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager.",
+            "logo": "https://github.com/louislam/dockge/raw/master/frontend/public/icon.svg",
+            "name": "dockge",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/dockge.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Dockge",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Wiki",
                 "Knowledge Base"
             ],
