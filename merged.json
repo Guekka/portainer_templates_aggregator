@@ -3010,6 +3010,22 @@
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
+            "categories": [
+                "Management"
+            ],
+            "description": "Deploy compose files, start/stop containers, delete unused images, view logs",
+            "logo": "https://dokemon.dev/logo/dokemon-dark-medium.svg",
+            "name": "dokemon",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/dokemon.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Dokemon",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 1,
             "title": "Dokku",
             "description": "Dokku setup as a container",
@@ -15379,7 +15395,7 @@
                     "name": "DNSPLUGIN",
                     "label": "DNSPLUGIN",
                     "default": "cloudflare",
-                    "description": "Required if `VALIDATION` is set to `dns`. Options are `acmedns`, `aliyun`, `azure`, `bunny`, `cloudflare`, `cpanel`, `desec`, `digitalocean`, `directadmin`, `dnsimple`, `dnsmadeeasy`, `dnspod`, `do`, `domeneshop`, `dreamhost`, `duckdns`, `dynu`, `freedns`, `gandi`, `gehirn`, `godaddy`, `google`, `google-domains`, `he`, `hetzner`, `infomaniak`, `inwx`, `ionos`, `linode`, `loopia`, `luadns`, `namecheap`, `netcup`, `njalla`, `nsone`, `ovh`, `porkbun`, `rfc2136`, `route53`, `sakuracloud`, `standalone`, `transip`, and `vultr`. Also need to enter the credentials into the corresponding ini (or json for some plugins) file under `/config/dns-conf`."
+                    "description": "Required if `VALIDATION` is set to `dns`. Options are `acmedns`, `aliyun`, `azure`, `bunny`, `cloudflare`, `cpanel`, `desec`, `digitalocean`, `directadmin`, `dnsimple`, `dnsmadeeasy`, `dnspod`, `do`, `domeneshop`, `dreamhost`, `duckdns`, `freedns`, `gandi`, `gehirn`, `godaddy`, `google`, `google-domains`, `he`, `hetzner`, `infomaniak`, `inwx`, `ionos`, `linode`, `loopia`, `luadns`, `namecheap`, `netcup`, `njalla`, `nsone`, `ovh`, `porkbun`, `rfc2136`, `route53`, `sakuracloud`, `standalone`, `transip`, and `vultr`. Also need to enter the credentials into the corresponding ini (or json for some plugins) file under `/config/dns-conf`."
                 },
                 {
                     "name": "PROPAGATION",
