@@ -5690,6 +5690,51 @@
             "note": "<a href='https://raw.githubusercontent.com/OliverCullimore/portainer-templates/master/templates.json' target='_blank'>Source</a>"
         },
         {
+            "categories": [
+                "Web",
+                "Tools"
+            ],
+            "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD.",
+            "env": [
+                {
+                    "default": "1000",
+                    "label": "PUID",
+                    "name": "PUID"
+                },
+                {
+                    "default": "100",
+                    "label": "PGID",
+                    "name": "PGID"
+                }
+            ],
+            "image": "gitea/gitea:latest",
+            "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/gitea.png",
+            "name": "gitea",
+            "note": "<a href='https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json' target='_blank'>Source</a>\nUse SQLite3 for the database unless you have an external one setup.",
+            "ports": [
+                "3000:3000/tcp",
+                "222:22/tcp"
+            ],
+            "platform": "linux",
+            "restart_policy": "unless-stopped",
+            "title": "Gitea",
+            "type": 1,
+            "volumes": [
+                {
+                    "bind": "/portainer/Files/AppData/Config/Gitea",
+                    "container": "/data"
+                },
+                {
+                    "bind": " /etc/timezone",
+                    "container": "/etc/timezone:ro"
+                },
+                {
+                    "bind": "/etc/localtime",
+                    "container": "/etc/localtime:ro"
+                }
+            ]
+        },
+        {
             "type": 1,
             "title": "Github-desktop",
             "name": "Github-desktop",
