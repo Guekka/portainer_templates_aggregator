@@ -12640,7 +12640,7 @@
         },
         {
             "categories": [
-                "Blogging"
+                "Blog"
             ],
             "description": "Create your own platform on the web. Ghost is a powerful app for new-media creators to publish, share, and grow a business around their content. It comes with modern tools to build a website, publish content, send newsletters & offer paid subscriptions to members.",
             "logo": "https://ghost.org/images/logos/logo-black-1.webp",
@@ -41596,6 +41596,22 @@
         },
         {
             "categories": [
+                "Social"
+            ],
+            "description": "Webtrees is the web\u2019s leading online collaborative genealogy application. [GEDCOM files support]",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_webtrees.svg/400px-Logo_webtrees.svg.png",
+            "name": "webtrees",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/webtrees.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Webtrees",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Fitness"
             ],
             "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker written with Django",
@@ -42369,6 +42385,23 @@
                     "description": "Password used by the MySQL root user."
                 }
             ]
+        },
+        {
+            "categories": [
+                "Blog",
+                "CMS"
+            ],
+            "description": "WordPress is the simplest, most popular way to create your own website or blog.",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/800px-WordPress_blue_logo.svg.png",
+            "name": "wordpress",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/wordpress.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Wordpress",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "type": 2,
