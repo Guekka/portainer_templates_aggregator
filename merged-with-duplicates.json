@@ -12756,6 +12756,35 @@
             "restart_policy": "unless-stopped"
         },
         {
+            "type": 1,
+            "title": "GitLab CE",
+            "description": "Open-source end-to-end software development platform",
+            "note": "<a href='https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json' target='_blank'>Source</a>\nDefault username is <b>root</b>. Check the <a href=\"https://docs.gitlab.com/ee/install/docker.html\" target=\"_blank\">Gitlab documentation</a> to get started.",
+            "categories": [
+                "development",
+                "project-management"
+            ],
+            "platform": "linux",
+            "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/gitlab_ce.png",
+            "image": "gitlab/gitlab-ce:latest",
+            "ports": [
+                "80/tcp",
+                "443/tcp",
+                "22/tcp"
+            ],
+            "volumes": [
+                {
+                    "container": "/etc/gitlab"
+                },
+                {
+                    "container": "/var/log/gitlab"
+                },
+                {
+                    "container": "/var/opt/gitlab"
+                }
+            ]
+        },
+        {
             "categories": [
                 "Tools",
                 "Other"
@@ -12937,35 +12966,6 @@
                 },
                 {
                     "bind": "/portainer/Files/AppData/Config/GitlabCE/opt",
-                    "container": "/var/opt/gitlab"
-                }
-            ]
-        },
-        {
-            "type": 1,
-            "title": "Gitlab CE",
-            "description": "Open-source end-to-end software development platform",
-            "note": "<a href='https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json' target='_blank'>Source</a>\nDefault username is <b>root</b>. Check the <a href=\"https://docs.gitlab.com/omnibus/docker/README.html#after-starting-a-container\" target=\"_blank\">Gitlab documentation</a> to get started.",
-            "categories": [
-                "development",
-                "project-management"
-            ],
-            "platform": "linux",
-            "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/gitlab_ce.png",
-            "image": "gitlab/gitlab-ce:latest",
-            "ports": [
-                "80/tcp",
-                "443/tcp",
-                "22/tcp"
-            ],
-            "volumes": [
-                {
-                    "container": "/etc/gitlab"
-                },
-                {
-                    "container": "/var/log/gitlab"
-                },
-                {
                     "container": "/var/opt/gitlab"
                 }
             ]
