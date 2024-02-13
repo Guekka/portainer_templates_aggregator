@@ -1420,6 +1420,53 @@
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
+            "type": 1,
+            "name": "baserow",
+            "title": "Baserow",
+            "description": " Open source no-code database and Airtable alternative ",
+            "logo": "https://mediadepot.github.io/templates/img/baserow.png",
+            "image": "baserow/baserow:1.22.3",
+            "categories": [
+                "Downloaders:",
+                "Tools:"
+            ],
+            "ports": [
+                "80/tcp"
+            ],
+            "volumes": [
+                {
+                    "container": "/baserow/data",
+                    "bind": "/opt/mediadepot/apps/baserow"
+                }
+            ],
+            "env": [
+                {
+                    "name": "BASEROW_PUBLIC_URL",
+                    "label": "BASEROW_PUBLIC_URL",
+                    "preset": false
+                }
+            ],
+            "labels": [
+                {
+                    "name": "traefik.enable",
+                    "value": "true"
+                },
+                {
+                    "name": "traefik.http.services.baserow.loadbalancer.server.port",
+                    "value": "80"
+                },
+                {
+                    "name": "traefik.http.routers.baserow.entrypoints",
+                    "value": "websecure"
+                },
+                {
+                    "name": "traefik.http.routers.baserow.tls.certresolver",
+                    "value": "mydnschallenge"
+                }
+            ],
+            "note": "<a href='https://raw.githubusercontent.com/mediadepot/templates/master/portainer.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 3,
             "title": "Bazarr",
             "name": "Bazarr",
@@ -45599,6 +45646,65 @@
                 }
             ],
             "note": "<a href='https://raw.githubusercontent.com/dnburgess/self-hosted-template/master/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "type": 1,
+            "name": "n8n",
+            "title": "n8n",
+            "description": "n8n allows you to build flexible workflows focused on deep data integration.",
+            "logo": "https://mediadepot.github.io/templates/img/n8n.png",
+            "image": "docker.n8n.io/n8nio/n8n:latest",
+            "categories": [
+                "Network:Other",
+                "Tools:"
+            ],
+            "ports": [
+                "5678/tcp"
+            ],
+            "volumes": [
+                {
+                    "container": "/home/node/.n8n",
+                    "bind": "/opt/mediadepot/apps/n8n"
+                },
+                {
+                    "container": "/etc/localtime",
+                    "bind": "/etc/localtime",
+                    "readonly": true
+                }
+            ],
+            "env": [
+                {
+                    "name": "GENERIC_TIMEZONE",
+                    "label": "GENERIC_TIMEZONE",
+                    "default": "America/Los_Angeles",
+                    "preset": true
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "America/Los_Angeles",
+                    "preset": true
+                }
+            ],
+            "labels": [
+                {
+                    "name": "traefik.enable",
+                    "value": "true"
+                },
+                {
+                    "name": "traefik.http.services.n8n.loadbalancer.server.port",
+                    "value": "5678"
+                },
+                {
+                    "name": "traefik.http.routers.n8n.entrypoints",
+                    "value": "websecure"
+                },
+                {
+                    "name": "traefik.http.routers.n8n.tls.certresolver",
+                    "value": "mydnschallenge"
+                }
+            ],
+            "note": "<a href='https://raw.githubusercontent.com/mediadepot/templates/master/portainer.json' target='_blank'>Source</a>"
         },
         {
             "category": [
