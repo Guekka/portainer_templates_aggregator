@@ -19,11 +19,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2 
+      - uses: actions/checkout@v3 
         with:
           ref: ${{ github.head_ref }}
-      - uses: actions/setup-python@v4
-      - run: python scripts/main.py
+      - uses: cachix/install-nix-action@v25
+      - run: nix run
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update template lists
