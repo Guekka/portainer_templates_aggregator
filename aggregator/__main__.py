@@ -36,7 +36,12 @@ def retrieve_templates(url: str) -> TemplateList:
         print(f"Cannot reach {url}")
         return []
 
-    json_data = json.loads(res.text)
+    try:
+        json_data = json.loads(res.text)
+    except json.JSONDecodeError as e:
+        print(f"Cannot parse {url} as JSON: {e}")
+        return []
+
     version = json_data.get("version", -1)
     if int(version) != TEMPLATE_VERSION:
         print(f"Wrong version for template {url}: {version}")
