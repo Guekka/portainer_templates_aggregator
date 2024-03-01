@@ -4,13 +4,13 @@ It is meant to run periodically.
 """
 
 import json
-from more_itertools import first
 import requests
 
 from dataclasses import dataclass
 from typing import Dict, List, Any
+from os import path
 
-CONFIG_PATH = "scripts/configuration.json"
+CONFIG_PATH = path.join(path.dirname(__file__), "configuration.json")
 TEMPLATE_VERSION = 2
 TITLE = "title"
 

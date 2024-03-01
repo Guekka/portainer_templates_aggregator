@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "portainer-template-aggregator"
+version = "0.1.0"
+description = "Aggregate popular portainer templates into a single file"
+authors = ["Guekka"]
+readme = "README.md"
+license = "MPL"
+packages = [
+  { include = "aggregator" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
