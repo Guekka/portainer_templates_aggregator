@@ -4,23 +4,23 @@ It is meant to run periodically.
 """
 
 import json
-import requests
-
 from dataclasses import dataclass
-from typing import Dict, List, Any
 from os import path
+from typing import Any
+
+import requests
 
 CONFIG_PATH = path.join(path.dirname(__file__), "configuration.json")
 TEMPLATE_VERSION = 2
 TITLE = "title"
 
-TemplateList = List[Any]
-JSON = Dict[str, Any]
+TemplateList = list[Any]
+JSON = dict[str, Any]
 
 
 @dataclass
 class Config:
-    template_lists: List[str]
+    template_lists: list[str]
     output_file: str
     output_file_with_dups: str
 
@@ -31,7 +31,7 @@ def load_config(path: str) -> Config:
 
 
 def retrieve_templates(url: str) -> TemplateList:
-    res = requests.get(url)
+    res = requests.get(url, timeout=5)
     if res.status_code != 200:
         print(f"Cannot reach {url}")
         return []
@@ -47,7 +47,7 @@ def retrieve_templates(url: str) -> TemplateList:
         print(f"Wrong version for template {url}: {version}")
         return []
 
-    templates = json_data.get("templates", [])
+    templates: TemplateList = json_data.get("templates", [])
     for template in templates:
         # Indicate source
         note = format_source(url)
@@ -74,10 +74,7 @@ def is_duplicate(current: TemplateList, new_template: JSON) -> bool:
 
     # This is not best for performance, but we're just going to go the O(n²) way
     # It should be enough for our purpose
-    for cur_template in current:
-        if clean_up_string(cur_template[TITLE]) == new_title:
-            return True
-    return False
+    return any(clean_up_string(cur_template[TITLE]) == new_title for cur_template in current)
 
 
 def format_source(url: str) -> str:
@@ -91,18 +88,20 @@ def merge_templates(result: TemplateList, new: TemplateList) -> TemplateList:
 
     return result
 
+
 def merge_templates_with_dups(result: TemplateList, new: TemplateList) -> TemplateList:
     for template in new:
         result.append(template)
 
     return result
-    
+
+
 def save_json(templates: TemplateList) -> str:
     result = {"version": f"{TEMPLATE_VERSION}", "templates": templates}
     return json.dumps(result, indent=4)
 
 
-def main():
+def main() -> None:
     config = load_config(CONFIG_PATH)
 
     res_without_dups: TemplateList = []
@@ -123,5 +122,5 @@ def main():
         out.write(save_json(res_with_dups))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

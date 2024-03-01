@@ -22,6 +22,8 @@
           packages = with pkgs.${system}; [
             (mkPoetryEnv { projectDir = self; })
             poetry
+            ruff
+            mypy
           ];
         };
       });
