@@ -10314,6 +10314,22 @@
         },
         {
             "categories": [
+                "Networking"
+            ],
+            "description": "WIFI / LAN intruder detector. Scans for devices connected to your network and alerts you if new and unknown devices are found.",
+            "logo": "https://avatars.githubusercontent.com/u/96159884?s=48&v=4",
+            "name": "NetAlertX",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/netalertx.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "NetAlertX",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Development"
             ],
             "description": "netboot.xyz is a convenient place to boot into any type of operating system or utility disk without the need of having to go spend time retrieving the ISO just to run it",
@@ -15137,6 +15153,46 @@
             "title": "Snippet Box",
             "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "type": 1,
+            "title": "Socket-proxy",
+            "name": "Socket-proxy",
+            "note": "<a href='https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json' target='_blank'>Source</a>\nPortainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/socket-proxy/config</p>",
+            "description": "This container needs special attention. Please check https://hub.docker.com/r/linuxserver/socket-proxy for details.",
+            "platform": "linux",
+            "logo": "",
+            "image": "linuxserver/socket-proxy:latest",
+            "env": [
+                {
+                    "name": "PUID",
+                    "label": "PUID",
+                    "default": "1024",
+                    "description": "for UserID"
+                },
+                {
+                    "name": "PGID",
+                    "label": "PGID",
+                    "default": "100",
+                    "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Europe/Amsterdam",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                }
+            ],
+            "ports": [
+                "80:80/tcp"
+            ],
+            "volumes": [
+                {
+                    "container": "/config",
+                    "bind": "/volume1/docker/socket-proxy/config"
+                }
+            ],
+            "restart_policy": "unless-stopped"
         },
         {
             "type": 4,
