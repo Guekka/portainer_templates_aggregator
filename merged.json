@@ -7014,6 +7014,22 @@
         },
         {
             "categories": [
+                "Multimedia"
+            ],
+            "description": "Invidious is an open source alternative front-end to YouTube.",
+            "logo": "https://invidious.io/invidious-colored-vector.svg",
+            "name": "Invidious",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/invidious.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Invidious",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Cloud",
                 "Productivity",
                 "Tools",
@@ -16791,6 +16807,23 @@
         },
         {
             "categories": [
+                "Productivity",
+                "Time related"
+            ],
+            "description": "Open source time-tracker with an interactive user experience and powerful reporting.",
+            "logo": "https://timetagger.app/timetagger_wl.svg",
+            "name": "TimeTagger",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/timetagger.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "TimeTagger",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Other"
             ],
             "description": "Tiny Tiny RSS is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible.",
@@ -17093,7 +17126,7 @@
                 "Multimedia"
             ],
             "description": "Tubearchivist is your self hosted YouTube media server",
-            "logo": "https://raw.githubusercontent.com/tubearchivist/tubearchivist/master/assets/tube-archivist-banner.jpg",
+            "logo": "https://nas.mengkai.fun:88/images/2023/11/17/tube-archivist.png",
             "name": "tubearchivist",
             "platform": "linux",
             "repository": {
