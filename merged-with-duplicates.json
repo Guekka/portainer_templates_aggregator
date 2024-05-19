@@ -46934,6 +46934,67 @@
             "note": "<a href='https://raw.githubusercontent.com/dnburgess/self-hosted-template/master/template.json' target='_blank'>Source</a>"
         },
         {
+            "type": 1,
+            "name": "qdirstat",
+            "title": "qdirstat",
+            "description": "QDirStat is a graphical application to show where your disk space has gone and to help you to clean it up.",
+            "logo": "https://mediadepot.github.io/templates/img/cardigann.png",
+            "image": "jlesage/qdirstat:latest",
+            "categories": [
+                "Utilities:"
+            ],
+            "ports": [
+                "5800/tcp"
+            ],
+            "volumes": [
+                {
+                    "container": "/config",
+                    "bind": "/opt/mediadepot/apps/qdirstat"
+                },
+                {
+                    "container": "/storage/opt",
+                    "bind": "/opt"
+                },
+                {
+                    "container": "/storage/mnt",
+                    "bind": "/mnt"
+                }
+            ],
+            "env": [
+                {
+                    "name": "PGID",
+                    "label": "PGID",
+                    "default": "15000",
+                    "preset": true
+                },
+                {
+                    "name": "PUID",
+                    "label": "PUID",
+                    "default": "15000",
+                    "preset": true
+                }
+            ],
+            "labels": [
+                {
+                    "name": "traefik.enable",
+                    "value": "true"
+                },
+                {
+                    "name": "traefik.http.services.qdirstat.loadbalancer.server.port",
+                    "value": "5800"
+                },
+                {
+                    "name": "traefik.http.routers.qdirstat.entrypoints",
+                    "value": "websecure"
+                },
+                {
+                    "name": "traefik.http.routers.qdirstat.tls.certresolver",
+                    "value": "mydnschallenge"
+                }
+            ],
+            "note": "<a href='https://raw.githubusercontent.com/mediadepot/templates/master/portainer.json' target='_blank'>Source</a>"
+        },
+        {
             "category": [
                 "Messenger"
             ],
