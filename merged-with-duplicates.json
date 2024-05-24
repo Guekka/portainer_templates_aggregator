@@ -24811,7 +24811,7 @@
         },
         {
             "categories": [
-                "Networking"
+                "Network"
             ],
             "description": "WIFI / LAN intruder detector. Scans for devices connected to your network and alerts you if new and unknown devices are found.",
             "logo": "https://avatars.githubusercontent.com/u/96159884?s=48&v=4",
@@ -36657,6 +36657,22 @@
                 }
             ],
             "note": "<a href='https://raw.githubusercontent.com/mediadepot/templates/master/portainer.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Network"
+            ],
+            "description": "Speedtest Tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.",
+            "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/speedtest-tracker-logo.png",
+            "name": "speedtest-tracker",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/speedtest-tracker.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Speedtest Tracker",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "type": 1,
