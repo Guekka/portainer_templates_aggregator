@@ -27477,6 +27477,23 @@
             "restart_policy": "unless-stopped"
         },
         {
+            "categories": [
+                "Productivity",
+                "Low Code"
+            ],
+            "description": "OpnForm is an open-source form builder. It's an alternative to products like Typeform, JotForm, Tally etc.",
+            "logo": "https://opnform.com/img/logo.svg",
+            "name": "opnform",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/opnform.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "OpnForm",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 1,
             "title": "Orcaslicer",
             "name": "Orcaslicer",
