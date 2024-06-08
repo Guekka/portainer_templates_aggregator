@@ -19513,63 +19513,46 @@
             "note": "<a href='https://raw.githubusercontent.com/dnburgess/self-hosted-template/master/template.json' target='_blank'>Source</a>"
         },
         {
-            "type": 1,
-            "name": "n8n",
+            "type": 3,
             "title": "n8n",
-            "description": "n8n allows you to build flexible workflows focused on deep data integration.",
-            "logo": "https://mediadepot.github.io/templates/img/n8n.png",
-            "image": "docker.n8n.io/n8nio/n8n:latest",
+            "name": "n8n",
+            "description": "Automatisation (Zapier alternative)",
+            "note": "<a href='https://raw.githubusercontent.com/PAPAMICA/docker-compose-collection/master/templates-portainer.json' target='_blank'>Source</a>\nWebsite: <a href='https://github.com/n8n-io/n8n' target='_blank' rel='noopener'>Github.com</a></br>Port to open:5678",
             "categories": [
-                "Network:Other",
-                "Tools:"
+                "SelfHosted",
+                "PAPAMICA"
             ],
-            "ports": [
-                "5678/tcp"
-            ],
-            "volumes": [
-                {
-                    "container": "/home/node/.n8n",
-                    "bind": "/opt/mediadepot/apps/n8n"
-                },
-                {
-                    "container": "/etc/localtime",
-                    "bind": "/etc/localtime",
-                    "readonly": true
-                }
-            ],
+            "platform": "linux",
+            "logo": "https://avatars.githubusercontent.com/u/45487711?s=200&v=4",
+            "repository": {
+                "stackfile": "composes-files/n8m.yml",
+                "url": "https://github.com/PAPAMICA/docker-compose-collection"
+            },
             "env": [
                 {
-                    "name": "GENERIC_TIMEZONE",
-                    "label": "GENERIC_TIMEZONE",
-                    "default": "America/Los_Angeles",
-                    "preset": true
+                    "name": "SERVICE",
+                    "label": "Name of the service ",
+                    "description": "No spaces or points",
+                    "default": "n8n"
                 },
                 {
-                    "name": "TZ",
-                    "label": "TZ",
-                    "default": "America/Los_Angeles",
-                    "preset": true
+                    "name": "DATA_LOCATION",
+                    "label": "Data localization ",
+                    "description": "Example: /apps/service",
+                    "default": "/_data/apps"
+                },
+                {
+                    "name": "URL",
+                    "label": "Service URL",
+                    "description": "Example: service.papamica.fr or service.com"
+                },
+                {
+                    "name": "NETWORK",
+                    "label": "Your Traefik network ",
+                    "description": "Example: proxy",
+                    "default": "proxy"
                 }
-            ],
-            "labels": [
-                {
-                    "name": "traefik.enable",
-                    "value": "true"
-                },
-                {
-                    "name": "traefik.http.services.n8n.loadbalancer.server.port",
-                    "value": "5678"
-                },
-                {
-                    "name": "traefik.http.routers.n8n.entrypoints",
-                    "value": "websecure"
-                },
-                {
-                    "name": "traefik.http.routers.n8n.tls.certresolver",
-                    "value": "mydnschallenge"
-                }
-            ],
-            "note": "<a href='https://raw.githubusercontent.com/mediadepot/templates/master/portainer.json' target='_blank'>Source</a>"
+            ]
         },
         {
             "category": [
