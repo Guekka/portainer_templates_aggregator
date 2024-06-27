@@ -3397,6 +3397,9 @@
                     "description": "For passing additional java options."
                 }
             ],
+            "ports": [
+                "80:80/tcp"
+            ],
             "volumes": [
                 {
                     "container": "/config",
@@ -8212,6 +8215,9 @@
                     "default": "False",
                     "description": "Set to `True` to run without any of the missing movie/show functions."
                 }
+            ],
+            "ports": [
+                "80:80/tcp"
             ],
             "volumes": [
                 {
