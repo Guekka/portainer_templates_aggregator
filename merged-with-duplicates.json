@@ -20362,6 +20362,38 @@
         },
         {
             "type": 3,
+            "title": "Manubes Edge Node",
+            "description": "High-performance cloud platform for industrial production management. Manubes is a no-code solution that is used to structure, monitor and control production data, systems and processes in the cloud.",
+            "categories": [
+                "edge"
+            ],
+            "platform": "linux",
+            "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/inray-manubes.png",
+            "repository": {
+                "url": "https://github.com/portainer/templates",
+                "stackfile": "edge/inray-manubes-edge-node/docker-compose.yml"
+            },
+            "env": [
+                {
+                    "name": "MANUBES_SECRET",
+                    "label": "manubes secret"
+                },
+                {
+                    "name": "ACCEPT_EULA",
+                    "label": "Accept EULA",
+                    "select": [
+                        {
+                            "text": "Yes, I accept",
+                            "value": "true",
+                            "default": true
+                        }
+                    ]
+                }
+            ],
+            "note": "<a href='https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json' target='_blank'>Source</a>"
+        },
+        {
+            "type": 3,
             "title": "MariaDB",
             "name": "MariaDB",
             "description": "Mariadb is one of the most popular database servers. Made by the original developers of MySQL.",
