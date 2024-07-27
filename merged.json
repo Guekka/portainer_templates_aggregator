@@ -973,6 +973,22 @@
         },
         {
             "categories": [
+                "Monitoring"
+            ],
+            "description": "A lightweight server resource monitoring hub with historical data, docker stats, and alerts.",
+            "logo": "",
+            "name": "beszel",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/beszel.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Beszel",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Other",
                 "Tools"
             ],
@@ -17558,6 +17574,53 @@
             "title": "Umami.is",
             "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "type": 1,
+            "title": "Ungoogled-chromium",
+            "name": "Ungoogled-chromium",
+            "note": "<a href='https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json' target='_blank'>Source</a>\nPortainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/ungoogled-chromium/config</p>",
+            "description": "[Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium) is Google Chromium, sans dependency on Google web services.",
+            "platform": "linux",
+            "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ungoogled-chromium-logo.png",
+            "image": "linuxserver/ungoogled-chromium:latest",
+            "env": [
+                {
+                    "name": "PUID",
+                    "label": "PUID",
+                    "default": "1024",
+                    "description": "for UserID"
+                },
+                {
+                    "name": "PGID",
+                    "label": "PGID",
+                    "default": "100",
+                    "description": "for GroupID"
+                },
+                {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "Europe/Amsterdam",
+                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+                },
+                {
+                    "name": "CHROME_CLI",
+                    "label": "CHROME_CLI",
+                    "default": "https://www.linuxserver.io/",
+                    "description": "Specify one or multiple Chromium CLI flags, this string will be passed to the application in full."
+                }
+            ],
+            "ports": [
+                "3000:3000/tcp",
+                "3001:3001/tcp"
+            ],
+            "volumes": [
+                {
+                    "container": "/config",
+                    "bind": "/volume1/docker/ungoogled-chromium/config"
+                }
+            ],
+            "restart_policy": "unless-stopped"
         },
         {
             "categories": [
