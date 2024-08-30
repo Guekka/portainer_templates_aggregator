@@ -9454,6 +9454,22 @@
         },
         {
             "categories": [
+                "Notes"
+            ],
+            "description": "",
+            "logo": "",
+            "name": "markopolis",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/markopolis.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Markopolis",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Social"
             ],
             "description": "Mastodon is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones..",
