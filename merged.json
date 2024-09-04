@@ -6869,6 +6869,22 @@
         },
         {
             "categories": [
+                "Bookmarks"
+            ],
+            "description": "Hoarder is an open source 'Bookmark Everything' app that uses AI for automatically tagging the content you throw at it.",
+            "logo": "https://raw.githubusercontent.com/hoarder-app/hoarder/main/screenshots/logo.png",
+            "name": "hoarder",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/hoarder.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Hoarder",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Dashboard"
             ],
             "description": "Simplify the management of your server with Homarr - a sleek, modern dashboard that puts all of your apps and services at your fingertips.",
@@ -9456,7 +9472,7 @@
             "categories": [
                 "Notes"
             ],
-            "description": "",
+            "description": "Markopolis is like the self hosted version of Obsidian Publish.",
             "logo": "",
             "name": "markopolis",
             "platform": "linux",
