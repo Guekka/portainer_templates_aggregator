@@ -11113,6 +11113,22 @@
         },
         {
             "categories": [
+                "Remote Control"
+            ],
+            "description": "The open source server management software for SSH, VNC & RDP",
+            "logo": "https://docs.nexterm.dev/logo.png",
+            "name": "nexterm",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/nexterm.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Nexterm",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Web",
                 "Proxy"
             ],
