@@ -24698,6 +24698,22 @@
         },
         {
             "categories": [
+                "Automation"
+            ],
+            "description": "The world's most popular workflow automation platform for technical teams",
+            "logo": "https://avatars.githubusercontent.com/u/45487711?s=48&v=4",
+            "name": "n8n",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/n8n.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "N8n",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Network"
             ],
             "description": "Network UPS Tools server",
@@ -29540,6 +29556,22 @@
                     "default": "proxy"
                 }
             ]
+        },
+        {
+            "categories": [
+                "Multimedia"
+            ],
+            "description": "Your next YouTube media manager",
+            "logo": "https://github.com/kieraneglin/pinchflat/raw/master/priv/static/images/originals/logo-white-wordmark-with-background.png",
+            "name": "pinchflat",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/pinchflat.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Pinchflat",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "categories": [
