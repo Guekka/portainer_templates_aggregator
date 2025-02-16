@@ -4327,7 +4327,7 @@
             "note": "<a href='https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json' target='_blank'>Source</a>\nPortainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/faster-whisper/config</p>",
             "description": "[Faster-whisper](https://github.com/SYSTRAN/faster-whisper) is a reimplementation of OpenAI's Whisper model using CTranslate2, which is a fast inference engine for Transformer models. This container provides a Wyoming protocol server for faster-whisper.",
             "platform": "linux",
-            "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/faster-whisper-logo.png",
+            "logo": "",
             "image": "linuxserver/faster-whisper:latest",
             "env": [
                 {
@@ -4385,7 +4385,7 @@
             "note": "<a href='https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json' target='_blank'>Source</a>\nPortainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/feed2toot/config</p>",
             "description": "[Feed2toot](https://gitlab.com/chaica/feed2toot) automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network.",
             "platform": "linux",
-            "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/feed2toot-banner.png",
+            "logo": "",
             "image": "linuxserver/feed2toot:latest",
             "env": [
                 {
@@ -4591,7 +4591,7 @@
             "note": "<a href='https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json' target='_blank'>Source</a>\nPortainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/ffmpeg/config</p>",
             "description": "# This container needs special attention. Please check https://hub.docker.com/r/linuxserver/ffmpeg for details.",
             "platform": "linux",
-            "logo": "",
+            "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ffmpeg.png",
             "image": "linuxserver/ffmpeg:latest",
             "env": [
                 {
@@ -9062,46 +9062,6 @@
         },
         {
             "type": 1,
-            "title": "Lsio-api",
-            "name": "Lsio-api",
-            "note": "<a href='https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json' target='_blank'>Source</a>\nPortainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/lsio-api/config</p>",
-            "description": "# This container needs special attention. Please check https://hub.docker.com/r/linuxserver/lsio-api for details.",
-            "platform": "linux",
-            "logo": "",
-            "image": "linuxserver/lsio-api:latest",
-            "env": [
-                {
-                    "name": "PUID",
-                    "label": "PUID",
-                    "default": "1024",
-                    "description": "for UserID"
-                },
-                {
-                    "name": "PGID",
-                    "label": "PGID",
-                    "default": "100",
-                    "description": "for GroupID"
-                },
-                {
-                    "name": "TZ",
-                    "label": "TZ",
-                    "default": "Europe/Amsterdam",
-                    "description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
-                }
-            ],
-            "ports": [
-                "80:80/tcp"
-            ],
-            "volumes": [
-                {
-                    "container": "/config",
-                    "bind": "/volume1/docker/lsio-api/config"
-                }
-            ],
-            "restart_policy": "unless-stopped"
-        },
-        {
-            "type": 1,
             "title": "Luanti",
             "name": "Luanti",
             "note": "<a href='https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json' target='_blank'>Source</a>\nPortainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/luanti/config/.minetest</p>",
@@ -10239,7 +10199,7 @@
             "note": "<a href='https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json' target='_blank'>Source</a>\nPortainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/modmanager/config</p>",
             "description": "# This container needs special attention. Please check https://hub.docker.com/r/linuxserver/modmanager for details.",
             "platform": "linux",
-            "logo": "",
+            "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver-ls-logo.png",
             "image": "linuxserver/modmanager:latest",
             "env": [
                 {
@@ -11908,7 +11868,7 @@
             "note": "<a href='https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json' target='_blank'>Source</a>\nPortainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/openssh-server/config</p>",
             "description": "[Openssh-server](https://www.openssh.com/) is a sandboxed environment that allows ssh access without giving keys to the entire server. Giving ssh access via private key often means giving full access to the server. This container creates a limited and sandboxed environment that others can ssh into. The users only have access to the folders mapped and the processes running inside this container.",
             "platform": "linux",
-            "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/blob/master/linuxserver.io/img/openssh-server-logo.png",
+            "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openssh-server-logo.png",
             "image": "linuxserver/openssh-server:latest",
             "env": [
                 {
@@ -14091,7 +14051,7 @@
             "note": "<a href='https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json' target='_blank'>Source</a>\nPortainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/qemu-static/config</p>",
             "description": "# This container needs special attention. Please check https://hub.docker.com/r/linuxserver/qemu-static for details.",
             "platform": "linux",
-            "logo": "",
+            "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/qemu-logo.png",
             "image": "linuxserver/qemu-static:latest",
             "env": [
                 {
@@ -15913,7 +15873,7 @@
             "note": "<a href='https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates-2.0.json' target='_blank'>Source</a>\nPortainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/socket-proxy/config</p>",
             "description": "# This container needs special attention. Please check https://hub.docker.com/r/linuxserver/socket-proxy for details.",
             "platform": "linux",
-            "logo": "",
+            "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/docker-logo.png",
             "image": "linuxserver/socket-proxy:latest",
             "env": [
                 {
