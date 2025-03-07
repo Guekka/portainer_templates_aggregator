@@ -8090,6 +8090,22 @@
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
+            "categories": [
+                "Metrics"
+            ],
+            "description": "Nutify is a comprehensive monitoring system designed to track the health and performance of your Uninterruptible Power Supply (UPS) devices.",
+            "logo": "https://github.com/DartSteven/Nutify/raw/main/pic/logo.jpg",
+            "name": "nutify",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/nutify.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Nutify",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 3,
             "title": "Nzbget",
             "name": "Nzbget",
