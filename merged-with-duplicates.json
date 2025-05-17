@@ -13439,6 +13439,23 @@
             "note": "<a href='https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json' target='_blank'>Source</a>"
         },
         {
+            "categories": [
+                "Monitoring",
+                "Logs"
+            ],
+            "description": " A Lightweight Tool that monitors Docker Container Logs for predefined keywords or regex patterns and sends Notifications.",
+            "logo": "https://github.com/clemcer/loggifly/raw/main/images/icon.png",
+            "name": "loggifly",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/loggifly.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Loggifly",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 1,
             "name": "logzio-logs-collector",
             "title": "Logzio Logs Collector",
