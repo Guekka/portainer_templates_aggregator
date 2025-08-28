@@ -4549,7 +4549,7 @@
             ],
             "description": "Powerful orchestration. Simplified workflows.Unify orchestration for all engineers. Build and govern all your workflows \u2014 Everything-as-Code, and from the UI.",
             "logo": "https://kestra.io/cdn-cgi/image/f=webp,w=236,h=123,q=80/landing/header-menu/download-logo.svg",
-            "name": "Kestra",
+            "name": "kestra",
             "platform": "linux",
             "repository": {
                 "stackfile": "Template/Stack/kestra.yml",
@@ -5316,6 +5316,22 @@
                 "url": "https://github.com/xneo1/portainer_templates"
             },
             "title": "Markopolis",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "News"
+            ],
+            "description": "Marreta is a tool that breaks down access barriers and elements that hinder reading!",
+            "logo": "",
+            "name": "marreta",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/marreta.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Marreta",
             "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
@@ -7733,6 +7749,22 @@
                 }
             ],
             "note": "<a href='https://raw.githubusercontent.com/mikestraney/portainer-templates/master/templates.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Social"
+            ],
+            "description": " An alternative to: Buffer.com, Hypefury, Twitter Hunter, etc...Postiz offers everything you need to manage your social media posts,build an audience, capture leads, and grow your business.",
+            "logo": "https://docs.postiz.com/_next/image?url=%2Flogo%2Fdark.png&w=256&q=75",
+            "name": "Postiz",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/postiz.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Postiz",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "categories": [
