@@ -121,6 +121,22 @@
         },
         {
             "categories": [
+                "Productivity"
+            ],
+            "description": "An offline first, self hostable note taking application",
+            "logo": "https://raw.githubusercontent.com/zhfahim/anchor/main/web/public/icons/anchor_icon.png",
+            "name": "anchor",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/anchor.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Anchor",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Devops"
             ],
             "description": "Modern UI for Ansible",
@@ -3349,6 +3365,22 @@
                 "url": "https://github.com/xneo1/portainer_templates"
             },
             "title": "Glances",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Personal Finance"
+            ],
+            "description": "Golang-based web application for personal expense management, focused on a clean monthly workflow and intuitive tracking of recurring and non-recurring costs.",
+            "logo": "",
+            "name": "gocostweb",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/gocostweb.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "GoCostWeb",
             "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
@@ -7811,6 +7843,22 @@
                 "url": "https://github.com/xneo1/portainer_templates"
             },
             "title": "Postiz",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Shopping"
+            ],
+            "description": "A self-hosted price tracking application that monitors product prices from any website.Get notified when prices drop, hit your target price, or items come back in stock.",
+            "logo": "https://github.com/clucraft/PriceGhost/raw/main/assets/header.svg",
+            "name": "priceghost",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/priceghost.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "PriceGhost",
             "type": 3,
             "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
