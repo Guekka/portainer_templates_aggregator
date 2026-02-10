@@ -608,6 +608,22 @@
         },
         {
             "categories": [
+                "Media"
+            ],
+            "description": "Streamlined Artist Request Manager for Lidarr. Search for artists using the MusicBrainz database and seamlessly add them to your Lidarr music library. Features personalized recommendations, genre analysis, and one-click requests.",
+            "logo": "https://github.com/lklynet/aurral/raw/main/frontend/public/arralogo.svg",
+            "name": "aurral",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/aurral.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Aurral",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Tools",
                 "Authentication"
             ],
@@ -2702,6 +2718,22 @@
                 }
             ],
             "note": "<a href='https://raw.githubusercontent.com/mediadepot/templates/master/portainer.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Monitoring"
+            ],
+            "description": "Open Source solution for seamless, real-time monitoring of full-stack systems, applications, and infrastructure. Provides deep insights across servers, applications, and services with uptime monitoring, SSL tracking, and infrastructure metrics.",
+            "logo": "https://camo.githubusercontent.com/aa94c14278d8f68ddf6466f69f6dedac445f6320eb3ec562c3eae760e0052719/68747470733a2f2f7075622d34613430363233303330323034343566386632383961326665653834663965382e72322e6465762f696d616765732f7365727665722d64657461696c2d706167652e706e67",
+            "name": "checkcle",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/checkcle.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "CheckCle",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "categories": [
@@ -13441,6 +13473,38 @@
                 }
             ],
             "note": "<a href='https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Media"
+            ],
+            "description": "Self-hosted, on-demand audio streaming platform that brings the Spotify experience to your personal music library. Features music streaming, podcast subscriptions, audiobook integration, playlist generation, and Lidarr integration for music discovery.",
+            "logo": "https://raw.githubusercontent.com/Chevron7Locked/lidify/main/assets/logo.png",
+            "name": "lidify",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/lidify.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Lidify",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Media"
+            ],
+            "description": "Self-hosted, on-demand audio streaming platform that brings the Spotify experience to your personal music library. Features music streaming, podcast subscriptions, audiobook integration, playlist generation, and Lidarr integration for music discovery.",
+            "logo": "https://raw.githubusercontent.com/Chevron7Locked/lidify/main/assets/logo.png",
+            "name": "lidify",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/lidify-full.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Lidify-full",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "categories": [
@@ -25147,6 +25211,22 @@
             "note": "<a href='https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json' target='_blank'>Source</a>"
         },
         {
+            "categories": [
+                "Time Management"
+            ],
+            "description": "The modern Open-Source Time Tracker",
+            "logo": "https://github.com/solidtime-io/solidtime/raw/main/docs/solidtime-banner.png",
+            "name": "solidtime",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/solidtime.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "SolidTime",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
             "type": 1,
             "title": "Solr",
             "description": "Open-source enterprise search platform",
@@ -25843,6 +25923,22 @@
                 }
             ],
             "note": "<a href='https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Productivity"
+            ],
+            "description": "Minimalist Map tracker and Trip planner to visualize your points of interest (POI) and organize your next adventure details. Self-hosted with no telemetry, no tracking, no ads.",
+            "logo": "https://github.com/itskovacs/trip/raw/main/src/public/favicon.png",
+            "name": "trip",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/trip.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "TRIP",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "categories": [
