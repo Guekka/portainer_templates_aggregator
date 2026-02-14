@@ -4486,6 +4486,22 @@
         },
         {
             "categories": [
+                "Cyber Security"
+            ],
+            "description": "A modern, responsive web interface for managing CrowdSec alerts and decisions. Built with React, Vite, Bun, and Tailwind CSS.",
+            "logo": "https://github.com/TheDuffman85/crowdsec-web-ui/raw/main/frontend/public/logo.svg",
+            "name": "crowdsec-web-ui",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/crowdsec-web-ui.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Crowdsec WEB UI",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Dashboard",
                 "Crypto",
                 "Finance"
