@@ -1774,6 +1774,22 @@
         },
         {
             "categories": [
+                "Files"
+            ],
+            "description": "Open-source file indexer, search engine, data analytics and management platform powered by Elasticsearch.",
+            "logo": "https://github.com/diskoverdata/diskover-docs/raw/main/source_files/images/diskover_logo_only.png",
+            "name": "diskover",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/diskover.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Diskover",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Tools"
             ],
             "description": "DCM (Docker Compose Maker) is a simple yet powerful tool that helps you create docker-compose.yaml files for your self-hosted applications.",
@@ -2755,6 +2771,22 @@
                     "container": "/myfiles"
                 }
             ]
+        },
+        {
+            "categories": [
+                "Files"
+            ],
+            "description": "FileGator is a free, open-source, self-hosted web application for managing files and folders.",
+            "logo": "https://filegator.io/filegator_logo.svg",
+            "name": "filegator",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/filegator.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Filegator",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "categories": [
