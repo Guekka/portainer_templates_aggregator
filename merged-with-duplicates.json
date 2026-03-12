@@ -24246,6 +24246,22 @@
         },
         {
             "categories": [
+                "OSINT"
+            ],
+            "description": "Global Threat Intercept \u2014 Real-Time Geospatial Intelligence Platform",
+            "logo": "https://avatars.githubusercontent.com/u/43977454?s=48&v=4",
+            "name": "shadowbroker",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/shadowbroker.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Shadowbroker",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
                 "Tools"
             ],
             "description": "Shiori is a simple bookmarks manager written in the Go language. Intended as a simple clone of Pocket.You can use it as command line application or as web application.",
