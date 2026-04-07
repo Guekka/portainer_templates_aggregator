@@ -3067,7 +3067,7 @@
             "categories": [
                 "Helpdesk"
             ],
-            "description": "FreeScout\u00a0is the super lightweight free open source help desk and shared inbox written in PHP (Laravel framework) \u2013 self hosted clone of HelpScout.",
+            "description": "FreeScout is the super lightweight free open source help desk and shared inbox written in PHP (Laravel framework) \u2013 self hosted clone of HelpScout.",
             "logo": "https://raw.githubusercontent.com/freescout-helpdesk/freescout/master/public/img/logo-300.png",
             "name": "freescout",
             "platform": "linux",
@@ -3468,7 +3468,7 @@
             "categories": [
                 "Cloud"
             ],
-            "description": "Gokapi is a lightweight server to share files, which expire after a set amount of downloads or days. It is similar to the discontinued\u00a0Firefox Send, with the difference that only the admin is allowed to upload files",
+            "description": "Gokapi is a lightweight server to share files, which expire after a set amount of downloads or days. It is similar to the discontinued Firefox Send, with the difference that only the admin is allowed to upload files",
             "logo": "https://noted.lol/content/images/2023/02/gokapi-self-hosted-main.png",
             "name": "gokapi",
             "platform": "linux",
@@ -5922,7 +5922,7 @@
             "categories": [
                 "Search"
             ],
-            "description": "Meilisearch is a\u00a0**RESTful search API**. It aims to be a\u00a0**ready-to-go solution**\u00a0for everyone who wants a\u00a0**fast and relevant search experience**\u00a0for their end-users",
+            "description": "Meilisearch is a **RESTful search API**. It aims to be a **ready-to-go solution** for everyone who wants a **fast and relevant search experience** for their end-users",
             "logo": "https://docs.meilisearch.com/logo.svg",
             "name": "Meilisearch",
             "platform": "linux",
@@ -7280,7 +7280,7 @@
                 "Identity Management",
                 "Access proxy"
             ],
-            "description": "Ory Kratos with Oathkeeper is\u00a0_the_\u00a0developer-friendly, security-hardened and battle-test Identity, User Management and Authentication system for the Cloud.",
+            "description": "Ory Kratos with Oathkeeper is _the_ developer-friendly, security-hardened and battle-test Identity, User Management and Authentication system for the Cloud.",
             "logo": "https://raw.githubusercontent.com/ory/meta/master/static/banners/kratos.svg",
             "name": "Ory Kratos",
             "platform": "linux",
@@ -8375,6 +8375,22 @@
                 }
             ],
             "note": "<a href='https://raw.githubusercontent.com/mikestraney/portainer-templates/master/templates.json' target='_blank'>Source</a>"
+        },
+        {
+            "categories": [
+                "Network"
+            ],
+            "description": "Plan your rack layout. Drag your devices in, move them around, export it. It runs in your browser. You can close the tab whenever you want",
+            "logo": "https://github.com/RackulaLives/Rackula/raw/main/assets/Rackula-lockup-dark.svg",
+            "name": "rackula",
+            "platform": "linux",
+            "repository": {
+                "stackfile": "Template/Stack/rackula.yml",
+                "url": "https://github.com/xneo1/portainer_templates"
+            },
+            "title": "Rackula",
+            "type": 3,
+            "note": "<a href='https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json' target='_blank'>Source</a>"
         },
         {
             "categories": [
